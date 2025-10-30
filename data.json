@@ -1,0 +1,516 @@
+{
+  "products": [
+    {
+      "id": "jordan4cementwhite",
+      "name": "Air Jordan 4 Retro OG ‘White Cement’ 2016",
+      "description": "The iconic Jordan 4 Retro combines heritage design and modern comfort for everyday wear.",
+      "ai_description": "Classic yet timeless. Perfect for sneaker collectors and casual wear.",
+      "image_url": "images/Shoes/jordan4cementwhite.png"
+    },
+    {
+      "id": "sambaog",
+      "name": "Adidas Samba OG ‘White Black Gum’",
+      "description": "A timeless streetwear classic — the Samba OG offers premium leather and vintage style.",
+      "ai_description": "Minimalist design with retro charm. Great for daily casual looks.",
+      "image_url": "images/Shoes/samba.png"
+    },
+    {
+      "id": "airforce1",
+      "name": "Nike Air Force 1 ’07 ‘Triple White’",
+      "description": "The all-time favorite Air Force 1 Low features clean lines and classic white leather.",
+      "ai_description": "Versatile and iconic. A must-have sneaker for any wardrobe.",
+      "image_url": "images/Shoes/af1.png"
+    },
+    {
+      "id": "conversehightop",
+      "name": "Converse Chuck Taylor All-Stars High-top",
+      "description": "The legendary Converse high-tops — versatile, durable, and effortlessly stylish.",
+      "ai_description": "Casual yet expressive. Perfect for creative personalities.",
+      "image_url": "images/Shoes/converse.png"
+    },
+
+    {
+      "id": "vansoldskool",
+      "name": "Vans Old Skool OG Black White",
+      "description": "The classic low-top skate shoe featuring the iconic sidestripe. Durable canvas/suede construction for versatile street style.",
+      "ai_description": "Black suede/canvas low-top with thick white leather sidestripe, white laces, and stitching. White vulcanized midsole/brown waffle outsole.",
+      "image_url": "images/Shoes/vans.png"
+    },
+    {
+      "id": "adizerosl2",
+      "name": "Adidas Adizero Sl2",
+      "description": "A lightweight running shoe built for speed and daily training. Features responsive cushioning in a breathable mesh upper.",
+      "ai_description": "Lightweight mesh upper (often white/black) with three signature stripes. Cushioned foam midsole with color accents. Durable rubber outsole.",
+      "image_url": "images/Shoes/adizerosl2.png"
+    },
+    {
+      "id": "poloralphlaurencourt",
+      "name": "Polo Ralph Lauren Court VLC Shoes",
+      "description": "Classic court-inspired sneaker with a clean, vulcanized finish. Features the iconic Polo logo for a timeless, preppy aesthetic.",
+      "ai_description": "Low-top canvas sneaker (typically white). Embroidered Polo player logo on the side. White rubber midsole with foxing tape. Brown gum or white outsole.",
+      "image_url": "images/Shoes/poloralphlaurencourt.png"
+    },
+    {
+      "id": "adizeroevosl",
+      "name": "Adidas Adizero Evo SL",
+      "description": "An ultralight performance runner engineered for racing and personal bests. Streamlined design with advanced foam technology.",
+      "ai_description": "Minimalist running shoe with a thin, translucent mesh upper. Lightweight foam midsole with a rocker geometry. Minimal rubber outsole for grip.",
+      "image_url": "images/Shoes/adizeroevosl.png"
+    },
+    {
+      "id": "adidassupernovarise",
+      "name": "Adidas Supernova Rise",
+      "description": "A comfortable daily trainer for everyday runs. Balances support and energy return with new Dreamstrike+ cushioning.",
+      "ai_description": "Engineered mesh upper with padded collar. Thick, cushioned midsole (e.g., Dreamstrike+ foam). Support rods visible. Black rubber outsole.",
+      "image_url": "images/Shoes/adidassupernovarise.png"
+    },
+    {
+      "id": "oncloudnova2",
+      "name": "On Cloudnova 2 New Generation All White",
+      "description": "The all-day sneaker with next-gen CloudTec cushioning. Fuses performance tech with a minimalist, street-ready 'All White' design.",
+      "ai_description": "Monochromatic all-white low-top sneaker. Sock-like upper construction. Signature midsole with individual 'Cloud' pods (CloudTec).",
+      "image_url": "images/Shoes/oncloudnova2.png"
+    },
+    {
+      "id": "rigorerarskate",
+      "name": "Rigorer AR Skate Shoes 'Full White'",
+      "description": "A clean, skate-inspired silhouette from Rigorer. This 'Full White' colorway offers minimalist style for casual, off-court wear.",
+      "ai_description": "All-white leather or synthetic upper. Low-top design with a padded collar. Flat white vulcanized-style midsole and matching outsole.",
+      "image_url": "images/Shoes/rigorerarskate.png"
+    },
+    {
+      "id": "drmartens1461smoothleather",
+      "name": "Dr. Martens 1461 Smooth Leather Oxford Shoes",
+      "description": "The iconic 3-eye unisex shoe. Crafted from durable smooth leather with signature yellow stitching and an air-cushioned sole.",
+      "ai_description": "Black smooth leather low-cut shoe with 3 eyelets. Visible yellow welt stitching. Translucent, grooved PVC air-cushioned sole.",
+      "image_url": "images/Shoes/drmartens1461smoothleather.png"
+    },
+    {
+      "id": "chucktaylorallstarclean",
+      "name": "Converse Chuck Taylor All Star Clean 'n Preme",
+      "description": "A premium, minimalist take on the timeless Chuck Taylor. Elevated materials and clean lines redefine the classic silhouette.",
+      "ai_description": "Classic Chuck Taylor silhouette (high-top or low-top). Premium canvas or leather upper. White rubber toe cap and midsole. Minimalist branding.",
+      "image_url": "images/Shoes/chucktaylorallstarclean.png"
+    },
+    {
+      "id": "newbalanceaimeleondore",
+      "name": "NEW BALANCE X AIMÉ LEON DORE 860V2 Blue Mesh Retro",
+      "description": "A retro-tech runner redefined by Aimé Leon Dore. Blends early 2010s performance aesthetics with ALD's signature refined style.",
+      "ai_description": "Retro running shoe with a blue open-mesh base. Silver and gold metallic synthetic overlays. N-ergy foam midsole (off-white). Black rubber outsole.",
+      "image_url": "images/Shoes/newbalanceaimeleondore.png"
+    },
+    {
+      "id": "jordan3retropuremoney",
+      "name": "Air Jordan 3 Retro 'Pure Money'",
+      "description": "The iconic Air Jordan 3 in a pristine 'Pure Money' colorway. Features an all-white tumbled leather upper with metallic silver details.",
+      "ai_description": "All-white mid-top basketball shoe. Tumbled leather upper. Signature elephant print overlays in light grey. Visible Air unit in the heel.",
+      "image_url": "images/Shoes/jordan3retropuremoney.png"
+    },
+    {
+      "id": "timberland3eyelughandsewnboat",
+      "name": "Timberland 3-Eye Lug Handsewn Boat 'Brown'",
+      "description": "The classic handsewn boat shoe upper fused with a rugged Timberland lug sole. Premium brown leather for a timeless, durable style.",
+      "ai_description": "Brown full-grain leather upper. Handsewn moc-toe construction. 360-degree rawhide lacing system. Thick, chunky rubber lug outsole.",
+      "image_url": "images/Shoes/timberland3eyelughandsewnboat.png"
+    },
+    {
+      "id": "vansclassicauthentic",
+      "name": "Vans Classic Authentic Red",
+      "description": "The original Vans heritage shoe. A simple low-top, lace-up profile with a durable red canvas upper and signature waffle outsole.",
+      "ai_description": "Vibrant red canvas low-top. Metal eyelets and white laces. White vulcanized midsole with black foxing stripe. Brown waffle outsole.",
+      "image_url": "images/Shoes/vansclassicauthentic.png"
+    },
+    {
+      "id": "vanssk8hihightop",
+      "name": "Vans Classic SK8-HI Black/White",
+      "description": "The legendary lace-up high-top skate shoe. Features durable suede/canvas uppers, padded collars, and the iconic sidestripe.",
+      "ai_description": "Black suede/canvas high-top. White leather sidestripe and white laces. Padded ankle collar. White vulcanized midsole/brown waffle outsole.",
+      "image_url": "images/Shoes/vanssk8hihightop.png"
+    },
+    {
+      "id": "dunkhighretrocargokhaki",
+      "name": "Nike Dunk High Retro 'Cargo Khaki'",
+      "description": "The '80s basketball icon returns. This retro features a classic two-tone look with a white leather base and 'Cargo Khaki' overlays.",
+      "ai_description": "White leather high-top with 'Cargo Khaki' (olive green) overlays. Khaki Swoosh, laces, and outsole. White nylon tongue and white midsole.",
+      "image_url": "images/Shoes/dunkhighretrocargokhaki.png"
+    },
+
+    {
+      "id": "carrybarrettecowhide",
+      "name": "Carry Barrette Cowhide Classic Loafer",
+      "description": "A timeless loafer crafted from genuine cowhide. Features a classic barrette strap across the vamp for a polished, sophisticated look.",
+      "ai_description": "Smooth cowhide leather loafer (often black or brown). Classic silhouette with a barrette strap detail across the vamp. Low stacked heel.",
+      "image_url": "images/Shoes/carrybarrettecowhide.png"
+    },
+    {
+      "id": "poloralphlaurenvelvet",
+      "name": "Polo Ralph Lauren velvet loafer",
+      "description": "An elegant slip-on crafted from plush velvet. Features the signature Polo embroidered logo for a refined, luxurious aesthetic.",
+      "ai_description": "Plush velvet upper (e.g., black, navy). Embroidered Polo logo or crest on the vamp. Quilted satin lining. Low stacked heel.",
+      "image_url": "images/Shoes/poloralphlaurenvelvet.png"
+    },
+    {
+      "id": "horsebitloafersdarkbrowncalf",
+      "name": "Horsebit Loafers Dark Brown Calf",
+      "description": "An iconic loafer silhouette in rich dark brown calf leather. Defined by the signature polished metal horsebit hardware.",
+      "ai_description": "Dark brown calfskin leather upper. Polished gold or silver-tone horsebit hardware on the vamp. Moc-toe construction. Low stacked heel.",
+      "image_url": "images/Shoes/horsebitloafersdarkbrowncalf.png"
+    },
+    {
+      "id": "leisurehandsewn",
+      "name": "Leisure Handsewn Color 8 Shell Cordovan",
+      "description": "An iconic handsewn penny loafer. Crafted from luxurious 'Color 8' (deep burgundy) Shell Cordovan leather for unmatched durability.",
+      "ai_description": "'Color 8' (deep burgundy) shell cordovan leather. Handsewn moc-toe with a classic penny strap. Leather sole and stacked heel.",
+      "image_url": "images/Shoes/leisurehandsewn.png"
+    },
+    {
+      "id": "seanladywolfpenny",
+      "name": "The Sean Lady Wolf Penny Loafer - Brown & OFF-WHITE",
+      "description": "A modern, two-tone penny loafer. Features a striking combination of brown and off-white leather, often paired with a chunky lug sole.",
+      "ai_description": "Two-tone leather upper (brown and off-white). Classic penny strap design. Chunky or exaggerated rubber lug sole for a modern look.",
+      "image_url": "images/Shoes/seanladywolfpenny.png"
+    },
+    {
+      "id": "sambawalesbonnersilver",
+      "name": "Adidas Samba Wales Bonner Silver",
+      "description": "A Wales Bonner collaboration on the iconic Samba. Features a striking metallic silver upper with signature crochet details and a gum sole.",
+      "ai_description": "Metallic silver leather upper. Crochet three-stripes (e.g., cream). Suede T-toe overlay. Elongated fold-over tongue. Gum rubber sole.",
+      "image_url": "images/Shoes/sambawalesbonnersilver.png"
+    },
+    {
+      "id": "guccibrixtoncollapsibleheel",
+      "name": "Gucci Brixton collapsible-heel leather loafer",
+      "description": "Gucci's iconic horsebit loafer in soft leather. Features a unique collapsible heel, allowing it to be worn as a loafer or a mule.",
+      "ai_description": "Smooth leather loafer (often black). Gold-tone horsebit hardware on the vamp. Almond toe. Soft, foldable leather at the heel.",
+      "image_url": "images/Shoes/guccibrixtoncollapsibleheel.png"
+    },
+    {
+      "id": "saintlaurentwyattchelseaboots",
+      "name": "Saint Laurent Wyatt Chelsea Boots In Suede 'Brown'",
+      "description": "The iconic YSL Chelsea boot in rich brown suede. Features elastic side panels, an almond toe, and a signature stacked Cuban heel.",
+      "ai_description": "Brown suede upper. Ankle-high Chelsea boot design. Elastic side panels. Leather pull-tab. Stacked Cuban heel. Leather sole.",
+      "image_url": "images/Shoes/saintlaurentwyattchelseaboots.png"
+    },
+    {
+      "id": "wrangleryuma",
+      "name": "Wrangler Yuma Men's Leather Lace Up Combat Boots",
+      "description": "A rugged men's combat boot by Wrangler. Features a durable leather upper, lace-up front, and a chunky rubber sole for everyday wear.",
+      "ai_description": "Leather upper (brown or black). Ankle-high combat boot style. Lace-up closure with eyelets/hooks. Padded collar. Thick rubber lug sole.",
+      "image_url": "images/Shoes/wrangleryuma.png"
+    },
+    {
+      "id": "eccoulttrn",
+      "name": "ECCO Ult-Trn (m)",
+      "description": "A lightweight hiking shoe built for the trails. Combines a modern aesthetic with ECCO's comfort technology and a high-grip rubber outsole.",
+      "ai_description": "Modern hiking shoe. Mixed synthetic/textile upper. Lightweight PHORENE midsole. High-traction rubber outsole (often Michelin).",
+      "image_url": "images/Shoes/eccoulttrn.png"
+    },
+    {
+      "id": "newbalance993madeinusa",
+      "name": "New Balance 993 Made in USA",
+      "description": "The iconic Made in USA runner. Blends premium suede and mesh with classic ABZORB cushioning for superior comfort and timeless style.",
+      "ai_description": "Classic grey suede overlays with grey mesh underlays. Reflective 'N' logo. Bulky ABZORB midsole. 'USA' branding on the heel.",
+      "image_url": "images/Shoes/newbalance993madeinusa.png"
+    },
+    {
+      "id": "acgairmowabbrattanbirch",
+      "name": "Nike ACG Air Mowabb 'Rattan Birch'",
+      "description": "The iconic ACG hiking silhouette. Features a neoprene inner bootie, durable nubuck upper, and a speckled midsole for rugged, retro style.",
+      "ai_description": "Tan ('Rattan') nubuck upper. Blue/orange neoprene bootie. Huarache-like heel support system. Speckled grey midsole. Black/tan outsole.",
+      "image_url": "images/Shoes/acgairmowabbrattanbirch.png"
+    },
+    {
+      "id": "andwanderxsalomonodyssey1",
+      "name": "And Wander x Salomon Odyssey 1",
+      "description": "A Salomon long-distance hiker, reimagined by And Wander. Blends technical trail performance with a minimalist, functional aesthetic.",
+      "ai_description": "Technical synthetic upper (often monochrome). Welded overlays. Reflective details. Quicklace system. High-cushion, stable midsole.",
+      "image_url": "images/Shoes/andwanderxsalomonodyssey1.png"
+    },
+    {
+      "id": "asicsgelkayano14",
+      "name": "Asics Gel-Kayano 14 'Black Glacier Grey'",
+      "description": "A 2000s retro-tech runner. Features a black mesh base, metallic silver overlays, and visible GEL technology for all-day comfort.",
+      "ai_description": "Black mesh upper with metallic silver/grey synthetic overlays. Classic Asics stripes. White midsole with visible GEL units. Black outsole.",
+      "image_url": "images/Shoes/asicsgelkayano14.png"
+    },
+    {
+      "id": "salomonxt6goretex",
+      "name": "Salomon XT-6 Gore-Tex 'Black/Silver'",
+      "description": "The iconic trail runner, updated with a waterproof Gore-Tex membrane. Built for harsh conditions without sacrificing its signature style.",
+      "ai_description": "Black waterproof upper with synthetic welded overlays. GORE-TEX branding. Quicklace system. Two-tone ACS midsole. Contagrip outsole.",
+      "image_url": "images/Shoes/salomonxt6goretex.png"
+    },
+    {
+      "id": "salomonxendxt6",
+      "name": "Salomon x END. XT-6 'Porcini'",
+      "description": "An END. collaboration on the XT-6, inspired by 'Porcini' mushrooms. Features a unique, earthy color palette of brown, tan, and beige.",
+      "ai_description": "Mesh upper with earthy tones (beige/brown). Synthetic welded overlays. Quicklace system. ACS midsole. 'END.' branding.",
+      "image_url": "images/Shoes/salomonxendxt6.png"
+    },
+    {
+      "id": "nb530",
+      "name": "New Balance 530 'White Natural Indigo'",
+      "description": "A classic 2000s running shoe. Features a breathable white mesh upper with silver and 'Natural Indigo' (navy) overlays.",
+      "ai_description": "White mesh upper. Metallic silver and navy blue synthetic overlays. White 'N' logo with navy outline. ABZORB midsole. Black outsole.",
+      "image_url": "images/Shoes/nb530.jpeg"
+    },
+    {
+      "id": "bitishunterx",
+      "name": "Biti's Hunter X white",
+      "description": "A popular lifestyle sneaker from Vietnamese brand Biti's. This all-white version features a lightweight knit upper and cushioned sole.",
+      "ai_description": "All-white knit or mesh upper. Modern, sock-like construction. Cushioned white foam midsole. Tonal branding. Rubber outsole pods.",
+      "image_url": "images/Shoes/bitishunterx.png"
+    },
+    {
+      "id": "aj4retro",
+      "name": "Air Jordan 4 Retro 'Oxidized Green'",
+      "description": "The iconic AJ4 in a clean colorway. Features a premium white leather upper with 'Oxidized Green' accents on the eyelets and midsole.",
+      "ai_description": "White leather upper with white mesh panels. Metallic 'Oxidized Green' eyelets and midsole details. Jumpman logo. Visible Air heel unit.",
+      "image_url": "images/Shoes/aj4retro.webp"
+    },
+    {
+      "id": "asicsgel",
+      "name": "ASICS GEL-KAYANO 14",
+      "description": "A 2000s retro-tech runner, prized for its layered aesthetic. Combines a breathable mesh upper with metallic overlays and visible GEL cushioning.",
+      "ai_description": "Layered mesh upper (often white/silver). Metallic synthetic overlays. Asics stripes on the side. White midsole with visible GEL units.",
+      "image_url": "images/Shoes/asicsgel.webp"
+    },
+    {
+      "id": "adidashandballspezial",
+      "name": "Adidas Handball Spezial",
+      "description": "A '70s indoor handball classic, now a streetwear staple. Features a premium suede upper and a distinctive dark gum rubber outsole.",
+      "ai_description": "Suede upper in various colors. Contrast leather three-stripes and heel tab. Gold foil 'Spezial' branding. Dark gum rubber sole.",
+      "image_url": "images/Shoes/adidashandballspezial.avif"
+    },
+    {
+      "id": "adidasforumlow",
+      "name": "Adidas Forum Low",
+      "description": "The iconic '80s basketball shoe, reimagined in a low-top. Defined by its premium leather upper and signature removable ankle strap.",
+      "ai_description": "Leather upper (typically white with color accents). Perforated toe box. Signature velcro ankle strap. Three-stripes. Rubber cupsole.",
+      "image_url": "images/Shoes/adidasforumlow.avif"
+    }
+  ],
+
+  "styleData": {
+    "MEN": {
+      "everyday": [
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual1.jpg",
+          "shoeId": "loafer"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual2.png",
+          "shoeId": "drmartens1461smoothleather"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual3.jpg",
+          "shoeId": "chucktaylorallstarclean"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual4.jpg",
+          "shoeId": "sambaog"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual5.jpg",
+          "shoeId": "newbalanceaimeleondore"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual6.jpg",
+          "shoeId": "jordan3retropuremoney"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual7.jpg",
+          "shoeId": "sambaog"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual8.png",
+          "shoeId": "sambaog"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual9.png",
+          "shoeId": "timberland3eyelughandsewnboat"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual10.jpg",
+          "shoeId": "vansclassicauthentic"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual11.jpg",
+          "shoeId": "vanssk8hihightop"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/MEN/casual12.jpg",
+          "shoeId": "dunkhighretrocargokhaki"
+        }
+      ],
+      "sport": [
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport1.jpg",
+          "shoeId": "adizerosl2"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport2.jpg",
+          "shoeId": "poloralphlaurencourt"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport3.jpg",
+          "shoeId": "adizeroevosl"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport4.jpg",
+          "shoeId": "hokabondi8"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport5.jpg",
+          "shoeId": "adidassupernovarise"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport6.jpg",
+          "shoeId": "oncloudnova2"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/MEN/sport7.jpg",
+          "shoeId": "rigorerarskate"
+        }
+      ],
+      "formal": [
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal1.jpg",
+          "shoeId": "carrybarrettecowhide"
+        },
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal2.jpg",
+          "shoeId": "poloralphlaurenvelvet"
+        },
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal3.jpg",
+          "shoeId": "loafer"
+        },
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal4.jpg",
+          "shoeId": "horsebitloafersdarkbrowncalf"
+        },
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal5.jpg",
+          "shoeId": "loafer"
+        },
+        {
+          "src": "images/Styles/Formal-Ceremony/MEN/formal6.jpg",
+          "shoeId": "leisurehandsewn"
+        }
+      ],
+      "party": [
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party1.jpg",
+          "shoeId": "seanladywolfpenny"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party2.jpg",
+          "shoeId": "loafer"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party3.jpg",
+          "shoeId": "sambawalesbonnersilver"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party4.jpg",
+          "shoeId": "guccibrixtoncollapsibleheel"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party5.jpg",
+          "shoeId": "saintlaurentwyattchelseaboots"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party6.jpg",
+          "shoeId": "loafer"
+        },
+        {
+          "src": "images/Styles/Party-Celebration/MEN/party7.jpg",
+          "shoeId": "loafer"
+        }
+      ],
+      "travel": [
+        {
+          "src": "images/Styles/Travel/MEN/travel1.jpg",
+          "shoeId": "wrangleryuma"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel2.jpg",
+          "shoeId": "eccoulttrn"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel3.jpg",
+          "shoeId": "newbalance993madeinusa"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel4.jpg",
+          "shoeId": "acgairmowabbrattanbirch"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel5.jpg",
+          "shoeId": "andwanderxsalomonodyssey1"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel6.jpg",
+          "shoeId": "asicsgelkayano14"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel7.jpg",
+          "shoeId": "salomonxt6goretex"
+        },
+        {
+          "src": "images/Styles/Travel/MEN/travel8.jpg",
+          "shoeId": "salomonxendxt6"
+        }
+      ]
+    },
+    "WOMEN": {
+      "everyday": [
+        {
+          "src": "images/Styles/Everyday-Casual/WOMEN/casual1.jpg",
+          "shoeId": "adidashandballspezial"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/WOMEN/casual2.jpg",
+          "shoeId": "sambaog"
+        },
+        {
+          "src": "images/Styles/Everyday-Casual/WOMEN/casual3.jpg",
+          "shoeId": "adidasforumlow"
+        }
+      ],
+      "sport": [
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport1.jpg",
+          "shoeId": "hokabondi8"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport2.jpg",
+          "shoeId": "nb530"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport3.jpg",
+          "shoeId": "nb530"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport4.jpg",
+          "shoeId": "bitishunterx"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport5.jpg",
+          "shoeId": "aj4retro"
+        },
+        {
+          "src": "images/Styles/Active-Sporty/WOMEN/sport6.jpg",
+          "shoeId": "asicsgel"
+        }
+      ]
+    }
+  },
+  "shoeData": {
+    "loafer": {
+      "src": "images/Shoes/loafer.png",
+      "name": "Classic Brown Loafer"
+    }
+  }
+}
