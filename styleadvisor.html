@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+    <link href="css/tiny-slider.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <title>ShoeFit</title>
   </head>
-
   <body>
     <!-- Start Header/Navigation -->
     <nav
@@ -29,16 +31,16 @@
           </a>
           <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 me-4">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Discover</a>
+              <a class="nav-link" href="index.html">Khám Phá</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tryonar.html">AR Virtual Try-On</a>
+              <a class="nav-link" href="tryonar.html">Thử Giày Ảo AR</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tryon2d.html">Try-On AI 2D</a>
+              <a class="nav-link" href="tryon2d.html">Thử Giày AI 2D</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="styleadvisor.html">Style Advisor</a>
+              <a class="nav-link" href="styleadvisor.html">Tư Vấn Phong Cách</a>
             </li>
           </ul>
           <div class="d-flex align-items-center gap-3">
@@ -64,12 +66,12 @@
               >
                 <li>
                   <a class="dropdown-item" href="profile.html"
-                    ><i class="fa-regular fa-user me-2"></i> Profile</a
+                    ><i class="fa-regular fa-user me-2"></i> Hồ Sơ</a
                   >
                 </li>
                 <li>
                   <a class="dropdown-item" href="settings.html"
-                    ><i class="fa-solid fa-gear me-2"></i> Settings</a
+                    ><i class="fa-solid fa-gear me-2"></i> Cài Đặt</a
                   >
                 </li>
                 <li>
@@ -77,9 +79,31 @@
                 </li>
                 <li>
                   <a class="dropdown-item text-danger" href="logout.html"
-                    ><i class="fa-solid fa-right-from-bracket me-2"></i>
-                    Logout</a
+                    ><i class="fa-solid fa-right-from-bracket me-2"></i> Đăng
+                    Xuất</a
                   >
+                </li>
+              </ul>
+            </div>
+            <div class="dropdown custom-dropdown">
+              <button
+                class="btn dropdown-toggle p-0 bg-transparent border-0"
+                type="button"
+                id="userDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="images/Effects/globe.svg" alt="Globe" width="24" />
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                aria-labelledby="userDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Tiếng Việt</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">English</a>
                 </li>
               </ul>
             </div>
@@ -90,7 +114,7 @@
               onmouseover="this.style.background='#00a982'"
               onmouseout="this.style.background='#00C39A'"
             >
-              Join App
+              Tải Ngay
             </a>
           </div>
         </div>
@@ -99,41 +123,47 @@
     <!-- End Header/Navigation -->
 
     <!-- Style Session Section -->
-    <section class="style-session py-5">
+    <section class="style-session py-5 pb-5">
       <div class="container">
         <!-- Title -->
         <div class="text-center mb-5">
-          <h2 class="fw-bold mb-3">Discover Your Style</h2>
+          <h2 class="fw-bold mb-3">Khám Phá Phong Cách Của Bạn</h2>
           <p class="text-muted">
-            Choose your gender and occasion to explore outfits that match your
-            favorite shoes.
+            Chọn giới tính và bối cảnh để khám phá các trang phục phù hợp với
+            đôi giày yêu thích của bạn.
           </p>
         </div>
 
         <!-- Gender Selection -->
         <div class="d-flex justify-content-center gap-3 mb-4">
-          <button class="btn gender-btn active" data-gender="men">Men</button>
-          <button class="btn gender-btn" data-gender="women">Women</button>
+          <button class="btn gender-btn active" data-gender="men">Nam</button>
+          <button class="btn gender-btn" data-gender="women">Nữ</button>
         </div>
 
         <!-- Occasion Tabs -->
         <ul class="nav nav-pills justify-content-center mb-4" id="occasionTabs">
           <li class="nav-item">
             <button class="nav-link active" data-occasion="everyday">
-              Everyday - Casual
+              Hàng ngày - Đơn giản
             </button>
           </li>
           <li class="nav-item">
-            <button class="nav-link" data-occasion="party">Party - Celebration</button>
+            <button class="nav-link" data-occasion="party">
+              Tiệc tùng - Lễ hội
+            </button>
           </li>
           <li class="nav-item">
-            <button class="nav-link" data-occasion="travel">Travel</button>
+            <button class="nav-link" data-occasion="travel">Du lịch</button>
           </li>
           <li class="nav-item">
-            <button class="nav-link" data-occasion="formal">Formal - Ceremony</button>
+            <button class="nav-link" data-occasion="formal">
+              Trang trọng - Lịch sự
+            </button>
           </li>
           <li class="nav-item">
-            <button class="nav-link" data-occasion="sport">Active - Sporty</button>
+            <button class="nav-link" data-occasion="sport">
+              Năng động - Thể thao
+            </button>
           </li>
         </ul>
 
@@ -176,7 +206,7 @@
       <div class="container relative">
         <div class="sofa-img">
           <img
-            src="images/Shoes/converse.png"
+            src="images/Effects/footer_img.png"
             alt="Footer image"
             class="img-fluid"
           />
@@ -193,26 +223,26 @@
                     width="24"
                   />
                 </span>
-                <span>Subscribe to Newsletter</span>
+                <span>Đăng Ký Nhận Bản Tin</span>
               </h3>
               <form class="row g-3">
                 <div class="col-auto">
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Enter your name"
+                    placeholder="Nhập tên của bạn"
                   />
                 </div>
                 <div class="col-auto">
                   <input
                     type="email"
                     class="form-control"
-                    placeholder="Enter your email"
+                    placeholder="Nhập email của bạn"
                   />
                 </div>
                 <div class="col-auto">
                   <button class="btn btn-primary" type="submit">
-                    <span class="fa fa-paper-plane"></span> Send
+                    <span class="fa fa-paper-plane"></span> Gửi
                   </button>
                 </div>
               </form>
@@ -284,18 +314,18 @@
             <div class="row links-wrap">
               <div class="col-6 col-md-6">
                 <ul class="list-unstyled">
-                  <li class="mb-2"><a href="about.html">About us</a></li>
-                  <li class="mb-2"><a href="services.html">Services</a></li>
+                  <li class="mb-2"><a href="about.html">Về Chúng Tôi</a></li>
+                  <li class="mb-2"><a href="services.html">Dịch Vụ</a></li>
                   <li class="mb-2"><a href="blog.html">Blog</a></li>
-                  <li class="mb-2"><a href="contact.html">Contact us</a></li>
+                  <li class="mb-2"><a href="contact.html">Liên Hệ</a></li>
                 </ul>
               </div>
               <div class="col-6 col-md-6">
                 <ul class="list-unstyled">
-                  <li class="mb-2"><a href="/">Support</a></li>
-                  <li class="mb-2"><a href="about.html">Our team</a></li>
-                  <li class="mb-2"><a href="/">Leadership</a></li>
-                  <li class="mb-2"><a href="/">Privacy Policy</a></li>
+                  <li class="mb-2"><a href="#">Hỗ Trợ</a></li>
+                  <li class="mb-2"><a href="#">Đội Ngũ</a></li>
+                  <li class="mb-2"><a href="#">Lãnh Đạo</a></li>
+                  <li class="mb-2"><a href="#">Chính Sách Bảo Mật</a></li>
                 </ul>
               </div>
             </div>
@@ -304,12 +334,12 @@
         <div class="copyright border-top pt-4 mt-4">
           <div class="row align-items-center">
             <div class="col-lg-6 text-center text-lg-start">
-              <p class="mb-0">&copy; 2025 ShoeFit. All Rights Reserved.</p>
+              <p class="mb-0">&copy; 2025 ShoeFit. Đã đăng ký Bản quyền.</p>
             </div>
             <div class="col-lg-6 text-center text-lg-end">
               <ul class="list-unstyled d-inline-flex mb-0 gap-4">
-                <li><a href="/terms-conditions">Terms &amp; Conditions</a></li>
-                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="#">Điều khoản & Điều kiện</a></li>
+                <li><a href="#">Chính sách Bảo mật</a></li>
               </ul>
             </div>
           </div>
@@ -358,7 +388,7 @@
           const img = document.createElement("img");
           img.src = style.src;
           img.alt = "Style";
-          img.loading = "lazy"; 
+          img.loading = "lazy";
 
           img.style.opacity = "0";
           img.style.transition = "opacity 0.6s ease";

@@ -289,31 +289,24 @@ a.more {
   color: #2f2f2f;
 }
 
-.product-section {
-  padding: 2rem 0;
-}
-
 .product-section .product-item {
   text-align: center;
   text-decoration: none;
   display: block;
   position: relative;
-  padding-bottom: 50px;
   cursor: pointer;
+  height: 100%;
 }
 
 .product-section .product-item .product-thumbnail {
   width: 100%;
-  height: 250px;
-  object-fit: contain;
-  background-color: #f8f9fa;
+  height: auto;
   border-radius: 10px;
-  padding: 10px;
+  padding: 0;
   margin-bottom: 20px;
   display: block;
   position: relative;
   top: 0;
-  transition: 0.3s all ease;
 }
 
 .product-section .product-item h3 {
@@ -377,7 +370,7 @@ a.more {
 }
 
 .product-section .product-item:hover .product-thumbnail {
-  top: -25px;
+  top: -10px;
 }
 
 .product-section .product-item:hover .icon-cross {
@@ -716,11 +709,11 @@ a.more {
 }
 
 .before-footer-section {
-  padding: 7rem 0 12rem 0 !important;
+  padding: 5rem 0 2rem 0 !important;
 }
 
 .blog-section {
-  padding: 10rem 0 7rem 0;
+  padding: 0 0 15rem 0;
 }
 
 .blog-section .post-entry a {
@@ -843,9 +836,9 @@ a.more {
 
 .footer-section .sofa-img {
   position: absolute;
-  top: -100px;
+  top: -300px;
   z-index: 1;
-  right: 0;
+  right: 70px;
 }
 
 .footer-section .sofa-img img {
@@ -906,7 +899,7 @@ a.more {
 }
 
 .untree_co-section {
-  padding: 7rem 0;
+  padding: 1rem 0;
 }
 
 .form-control {
