@@ -42,7 +42,7 @@ a.more {
   font-weight: 600;
 }
 
-.custom-navbar .navbar-brand > span {
+.custom-navbar .navbar-brand>span {
   opacity: 0.4;
 }
 
@@ -132,8 +132,16 @@ a.more {
 }
 
 .hero {
-  background: #3b5d50;
-  padding: calc(4rem - 30px) 0 0rem 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.hero img {
+  width: 100%;
+  height: 598px; 
+  display: block; 
+  margin: 0; 
 }
 
 @media (min-width: 768px) {
@@ -300,13 +308,17 @@ a.more {
 
 .product-section .product-item .product-thumbnail {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 10px;
   padding: 0;
   margin-bottom: 20px;
   display: block;
   position: relative;
   top: 0;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 .product-section .product-item h3 {
@@ -633,7 +645,7 @@ a.more {
   }
 }
 
-.testimonial-slider-wrap #testimonial-nav > span {
+.testimonial-slider-wrap #testimonial-nav>span {
   cursor: pointer;
   position: absolute;
   width: 58px;
@@ -647,7 +659,7 @@ a.more {
   transition: 0.3s all ease;
 }
 
-.testimonial-slider-wrap #testimonial-nav > span:hover {
+.testimonial-slider-wrap #testimonial-nav>span:hover {
   background: #3b5d50;
   color: #ffffff;
 }
@@ -1168,6 +1180,7 @@ textarea {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1293,6 +1306,7 @@ textarea {
   column-count: 4;
   column-gap: 1rem;
 }
+
 .pinterest-grid .grid-item {
   display: inline-block;
   margin-bottom: 1rem;
@@ -1300,12 +1314,14 @@ textarea {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .pinterest-grid .grid-item img {
   width: 100%;
   height: auto;
   display: block;
   transition: opacity 0.6s ease;
 }
+
 .pinterest-grid .grid-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
@@ -1316,11 +1332,13 @@ textarea {
     column-count: 3;
   }
 }
+
 @media (max-width: 768px) {
   .pinterest-grid {
     column-count: 2;
   }
 }
+
 @media (max-width: 576px) {
   .pinterest-grid {
     column-count: 1;
@@ -1458,4 +1476,3 @@ textarea {
     margin-bottom: 2rem;
   }
 }
-

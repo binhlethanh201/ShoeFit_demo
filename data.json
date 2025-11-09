@@ -1,6 +1,34 @@
 {
   "products": [
     {
+      "id": "adidasgazelle",
+      "name": "Adidas Gazelle",
+      "description": "Một mẫu giày cổ điển vượt thời gian từ kho lưu trữ của Adidas. Ban đầu là một đôi giày luyện tập, nay đã trở thành biểu tượng thời trang đường phố với thân giày bằng da lộn đặc trưng và thiết kế đơn giản.",
+      "ai_description": "Một đôi sneaker cổ thấp với toàn bộ thân giày bằng da lộn. Nổi bật với logo ba sọc ở bên hông, một lớp phủ hình chữ T ở mũi giày và đế cupsole bằng cao su phẳng.",
+      "image_url": "images/Shoes/adidasgazelle.png"
+    },
+    {
+      "id": "birkenstock",
+      "name": "Birkenstock Arizona",
+      "description": "Mẫu sandal hai quai mang tính biểu tượng của Birkenstock. Nổi tiếng với phần lót giày bằng vật liệu cork-latex được đúc theo đường nét bàn chân, mang lại sự thoải mái và hỗ trợ vô song.",
+      "ai_description": "Một mẫu sandal hở mũi có hai quai bản rộng, mỗi quai có một khóa kim loại tùy chỉnh. Được chế tạo trên lót giày bằng gỗ bần (cork) và đế EVA phẳng.",
+      "image_url": "images/Shoes/birkenstock.png"
+    },
+    {
+      "id": "nikeairjordan1lowog",
+      "name": "Nike Air Jordan 1 Low OG",
+      "description": "Phiên bản cổ thấp của đôi sneaker huyền thoại đã bắt đầu tất cả. Mang hình bóng cổ điển của năm 1985 với nhãn hiệu 'OG', bao gồm logo Nike Air trên lưỡi gà và logo Wings ở gót giày.",
+      "ai_description": "Một đôi sneaker kiểu dáng bóng rổ cổ thấp. Thân giày bằng da với các lỗ thông hơi ở mũi giày. Nổi bật với logo Nike Swoosh cổ điển ở bên hông và logo Air Jordan Wings ở gót.",
+      "image_url": "images/Shoes/nikeairjordan1lowog.png"
+    },
+    {
+      "id": "adizeroevosl",
+      "name": "Adidas Adizero Evo SL",
+      "description": "An ultralight performance runner engineered for racing and personal bests. Streamlined design with advanced foam technology.",
+      "ai_description": "Minimalist running shoe with a thin, translucent mesh upper. Lightweight foam midsole with a rocker geometry. Minimal rubber outsole for grip.",
+      "image_url": "images/Shoes/adizeroevosl.png"
+    },
+    {
       "id": "jordan4cementwhite",
       "name": "Air Jordan 4 Retro OG ‘White Cement’ 2016",
       "description": "The iconic Jordan 4 Retro combines heritage design and modern comfort for everyday wear.",
@@ -49,13 +77,6 @@
       "description": "Classic court-inspired sneaker with a clean, vulcanized finish. Features the iconic Polo logo for a timeless, preppy aesthetic.",
       "ai_description": "Low-top canvas sneaker (typically white). Embroidered Polo player logo on the side. White rubber midsole with foxing tape. Brown gum or white outsole.",
       "image_url": "images/Shoes/poloralphlaurencourt.png"
-    },
-    {
-      "id": "adizeroevosl",
-      "name": "Adidas Adizero Evo SL",
-      "description": "An ultralight performance runner engineered for racing and personal bests. Streamlined design with advanced foam technology.",
-      "ai_description": "Minimalist running shoe with a thin, translucent mesh upper. Lightweight foam midsole with a rocker geometry. Minimal rubber outsole for grip.",
-      "image_url": "images/Shoes/adizeroevosl.png"
     },
     {
       "id": "adidassupernovarise",
