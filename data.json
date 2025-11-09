@@ -1,5 +1,5 @@
 {
-"products": [
+  "products": [
     {
       "id": "adidasgazelle",
       "name": "Adidas Gazelle",
@@ -260,7 +260,7 @@
       "image_url": "images/Shoes/salomonxt6goretex.png"
     },
     {
-      "id":"salomonxendxt6",
+      "id": "salomonxendxt6",
       "name": "Salomon x END. XT-6 'Porcini'",
       "description": "Một sản phẩm hợp tác của END. trên mẫu XT-6, lấy cảm hứng từ nấm 'Porcini'. Nổi bật với bảng màu đất độc đáo gồm nâu, rám nắng và be.",
       "ai_description": "Thân giày bằng lưới với tông màu đất (be/nâu). Các lớp phủ hàn nhiệt tổng hợp. Hệ thống Quicklace. Đế giữa ACS. Nhãn hiệu 'END.'.",
@@ -309,7 +309,6 @@
       "image_url": "images/Shoes/adidasforumlow.avif"
     }
   ],
-
   "styleData": {
     "MEN": {
       "everyday": [

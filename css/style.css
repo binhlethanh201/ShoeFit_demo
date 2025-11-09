@@ -616,15 +616,12 @@ a.more {
   position: relative;
   top: 0;
   transition: 0.3s all ease;
-  /* Thêm lại transition để chuyển động mượt */
 }
 
-/* Hủy hiệu ứng nền :before khi hover */
 .product-section .product-item.product-item-full-image:before {
   display: none;
 }
 
-/* Hủy hiệu ứng nhấc ảnh lên khi hover */
 .product-section .product-item.product-item-full-image:hover .product-thumbnail {
   top: -20px;
 }
@@ -817,7 +814,6 @@ a.more {
 
 .footer-section a {
   text-decoration: none;
-  /* color: #2f2f2f; */
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
@@ -826,13 +822,11 @@ a.more {
 .footer-section .links-wrap a,
 .footer-section .copyright a {
   color: #15228b;
-  /* Màu xanh chủ đạo */
 }
 
 .footer-section .links-wrap a:hover,
 .footer-section .copyright a:hover {
   color: rgba(21, 34, 139, 0.7);
-  /* Màu xanh nhạt hơn khi hover */
 }
 
 
@@ -903,7 +897,6 @@ a.more {
   transition: all 0.3s ease;
 }
 
-/* Hiệu ứng hover làm cho nút tối hơn một chút */
 .btn-blue:hover {
   background-color: #0a1252;
   border-color: #0a1252;
@@ -962,9 +955,7 @@ a.more {
 
 .footer-section .custom-social li a:hover {
   background: #15228b;
-  /* Nền xanh khi hover */
   color: #ffffff;
-  /* Icon màu trắng khi hover */
   border-color: #15228b;
 }
 
@@ -1169,18 +1160,14 @@ textarea {
 
 .custom-dropdown .dropdown-item.text-danger {
   color: #dc3545;
-  /* Màu đỏ của Bootstrap */
 }
 
 .custom-dropdown .dropdown-item.text-danger i {
   color: #dc3545;
-  /* Icon cũng màu đỏ */
 }
 
 .custom-dropdown .dropdown-item.text-danger:hover {
   color: #dc3545;
-  /* Giữ chữ màu đỏ khi hover */
-  /* Nền hover là màu đỏ nhạt */
   background-color: rgba(220, 53, 69, 0.1);
 }
 
@@ -1188,24 +1175,13 @@ textarea {
   margin: 0.5rem 0;
 }
 
-/* CSS ĐỂ LÀM HIỆN MŨI TÊN DROPDOWN TRÊN NỀN TRẮNG */
-
 .custom-dropdown .dropdown-toggle::after {
-  /*
-   * Bootstrap tạo mũi tên bằng 'border-top'.
-   * Rất có thể nó đang là màu trắng nên bị chìm.
-   * Dòng code này sẽ đổi màu mũi tên sang màu xanh của bạn.
-   */
   border-top-color: #15228b;
-
-  /* Căn chỉnh lại một chút nếu cần (tùy chọn) */
   vertical-align: 0.15em;
 }
 
-/* Thêm hiệu ứng hover cho mũi tên (đổi sang màu xanh đậm) */
 .custom-dropdown .dropdown-toggle:hover::after {
   border-top-color: #0a1252;
-  /* Màu xanh đậm hơn khi hover */
 }
 
 .style-session {
@@ -1231,26 +1207,18 @@ textarea {
 }
 
 .nav-pills .nav-link {
-  /* Đổi màu chữ mặc định sang màu xanh chủ đạo */
   color: #30a5e3;
   border-radius: 50px;
   margin: 0 0.25rem;
   transition: all 0.3s ease;
-
-  /* Thêm một viền mỏng màu xanh */
   border: 1px solid #30a5e3;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .nav-link:hover {
-  /* Đổi màu nền khi active/hover sang màu xanh chủ đạo */
   background-color: #30a5e3;
-
-  /* Đổi màu viền khi active/hover */
   border-color: #30a5e3;
-
   color: #fff;
-  /* Giữ màu chữ trắng */
 }
 
 .grid-item {
