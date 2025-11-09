@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -12,6 +13,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <title>ShoeFit</title>
 </head>
+
 <body>
   <!-- Start Header/Navigation -->
   <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3" aria-label="ShoeFit navigation bar">
@@ -78,8 +80,8 @@
             </ul>
           </div>
           <a href="tryonAR.html" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm"
-            style="background: #00c39a; border: none; transition: 0.3s" onmouseover="this.style.background='#00a982'"
-            onmouseout="this.style.background='#00C39A'">
+            style="background: #30a5e3; border: none; transition: 0.3s" onmouseover="this.style.background='#0797e4'"
+            onmouseout="this.style.background='#0797e4'">
             Tải Ngay
           </a>
         </div>
@@ -88,51 +90,37 @@
   </nav>
   <!-- End Header/Navigation -->
 
-  <img src="images/Effects/hero_test.jpg" alt="Hero Image" />
+  <img src="images/Effects/des_hero.png" alt="Hero Image" />
   <!-- Start New Product Section -->
-  <!-- <div class="hero">
- 
-  </div> -->
+  <!-- <div class="hero"> </div> -->
   <!-- End New Product Section -->
 
   <!-- Services Section -->
   <div class="product-section mt-5">
     <div class="container">
       <div class="row">
-        <!-- Try-On AI 2D -->
         <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-          <div class="product-item">
-            <img src="images/TryOnGrids/tryon5-grid.jpg" alt="Try-On AI 2D" class="img-fluid product-thumbnail mb-4" />
-            <h2 class="mb-3 section-title">Thử Giày AI 2D</h2>
-            <p class="mb-4">
-              Tải ảnh của bạn lên và xem ngay hình ảnh thực tế của bạn khi mang đôi giày bạn chọn — được hỗ trợ bởi công nghệ AI tiên tiến.
-            </p>
-            <a href="tryon2d.html" class="btn btn-dark">THỬ NGAY</a>
+
+          <div class="product-item product-item-full-image">
+            <img src="images/TryOnGrids/tryon2d.png" alt="Try-On AI 2D" class="img-fluid product-thumbnail mb-4" />
+            <a href="tryon2d.html" class="btn btn-blue">THỬ NGAY</a>
           </div>
         </div>
 
-        <!-- AR Virtual Try-On -->
         <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-          <div class="product-item">
-            <img src="images/TryOnGrids/tryon4-grid.jpg" alt="AR Virtual Try-On"
+
+          <div class="product-item product-item-full-image">
+            <img src="images/TryOnGrids/tryonar.png" alt="AR Virtual Try-On" class="img-fluid product-thumbnail mb-4" />
+            <a href="tryonar.html" class="btn btn-blue">THỬ NGAY</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
+
+          <div class="product-item product-item-full-image">
+            <img src="images/TryOnGrids/styleadvisor.png" alt="Style Advisor"
               class="img-fluid product-thumbnail mb-4" />
-            <h2 class="mb-3 section-title">Thử Giày Ảo AR</h2>
-            <p class="mb-4">
-              Sử dụng camera của bạn để trải nghiệm 3D thời gian thực. Di chuyển chân, thay đổi góc độ và hình dung mọi đôi giày với tỷ lệ và độ vừa vặn hoàn hảo.
-            </p>
-            <a href="tryonar.html" class="btn btn-dark">THỬ NGAY</a>
-          </div>
-        </div>
-
-        <!-- Style Advisor -->
-        <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-          <div class="product-item">
-            <img src="images/TryOnGrids/tryon3-grid.png" alt="Style Advisor" class="img-fluid product-thumbnail mb-4" />
-            <h2 class="mb-3 section-title">Tư Vấn Phong Cách</h2>
-            <p class="mb-4">
-              Hãy để AI giúp bạn định hình phong cách đề xuất về giày, trang phục và phụ kiện phù hợp với sở thích của bạn.
-            </p>
-            <a href="styleadvisor.html" class="btn btn-dark">THỬ NGAY</a>
+            <a href="styleadvisor.html" class="btn btn-blue">THỬ NGAY</a>
           </div>
         </div>
       </div>
@@ -260,7 +248,7 @@
                 <input type="email" class="form-control" placeholder="Nhập email của bạn" />
               </div>
               <div class="col-auto">
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-blue" type="submit">
                   <span class="fa fa-paper-plane"></span> Gửi
                 </button>
               </div>
@@ -273,7 +261,7 @@
           <div class="mb-4 footer-logo-wrap">
             <a href="/" class="footer-logo"> ShoeFit<span>.</span> </a>
           </div>
-          <p class="mb-4">Slogan.</p>
+          <p class="mb-4">Try On. Fit Right. Shop Smart</p>
           <ul class="list-unstyled custom-social d-flex gap-3 mb-4">
             <li>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -360,7 +348,7 @@
 
         const container = document.getElementById("product-list");
 
-        products.slice(0,4).forEach((p) => {
+        products.slice(0, 4).forEach((p) => {
           const productHTML = `
         <div class="col-12 col-md-4 col-lg-3 mb-5">
           <a href="productdetail.html?id=${p.id}" class="product-item">

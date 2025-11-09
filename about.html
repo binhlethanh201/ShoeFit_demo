@@ -1,348 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="shortcut icon" href="favicon.png" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="bootstrap, bootstrap4" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="favicon.png" />
 
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="css/tiny-slider.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <title>ShoeFit</title>
-  </head>
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
 
-  <body>
-    <!-- Start Header/Navigation -->
-    <nav
-      class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3"
-      aria-label="ShoeFit navigation bar"
-    >
-      <div class="container d-flex align-items-center justify-content-between">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link href="css/tiny-slider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <title>ShoeFit</title>
+</head>
+
+<body>
+  <!-- Start Header/Navigation -->
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3" aria-label="ShoeFit navigation bar">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="collapse navbar-collapse" id="navbarsFurni">
         <a class="navbar-brand fw-bold fs-3" href="index.html">
-          ShoeFit<span class="text-primary">.</span>
+          ShoeFit<span>.</span>
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsFurni"
-          aria-controls="navbarsFurni"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsFurni">
-          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 me-4">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Discover</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tryonar.html">AR Virtual Try-On</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tryon2d.html">Try-On AI 2D</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="styleadvisor.html">Style Advisor</a>
-            </li>
-          </ul>
-          <div class="d-flex align-items-center gap-3">
-            <a class="nav-link p-0" href="search.html">
-              <img src="images/Effects/search.svg" alt="Search" width="22" />
-            </a>
-            <a class="nav-link p-0" href="wishlist.html">
-              <img src="images/Effects/heart.svg" alt="Wishlist" width="22" />
-            </a>
-            <div class="nav-item dropdown position-relative">
-              <a
-                class="nav-link bg-transparent border-0 p-0"
-                href="#"
-                id="userDropdown"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img src="images/Effects/user.svg" alt="User" width="22" />
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="userDropdown"
-                style="min-width: 150px"
-              >
-                <li>
-                  <a class="dropdown-item" href="profile.html">Profile</a>
-                </li>
-                <li><a class="dropdown-item" href="logout.html">Logout</a></li>
-              </ul>
-            </div>
-            <a
-              href="tryonAR.html"
-              class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm"
-              style="background: #00c39a; border: none; transition: 0.3s"
-              onmouseover="this.style.background='#00a982'"
-              onmouseout="this.style.background='#00C39A'"
-            >
-              Join App
-            </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- End Header/Navigation -->
-
-    <!-- Start Hero Section -->
-    <div class="hero">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-5">
-            <div class="intro-excerpt">
-              <h1>About Us</h1>
-              <p class="mb-4"></p>
-              <p class="mb-4"></p>
-            </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="hero-img-wrap">
-              <img src="images/Shoes/af1.png" alt="af1" class="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Hero Section -->
-
-    <!-- Start Why Choose Us Section -->
-    <div class="why-choose-section mt-5">
-      <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-5">
-            <div class="img-wrap">
-              <img
-                src="images/Effects/why-choose.jpg"
-                alt="ShoeFit AR and AI Technology Showcase"
-                class="img-fluid"
-              />
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <h2 class="section-title">AI and VR Try-on</h2>
-            <p>
-              ShoeFit is the first application in Vietnam that combines AI and
-              3D technology to help users virtually try on real shoes, choose
-              the right size, and suggest personalized outfits – bringing a
-              confident, convenient, and stylish online shoe shopping
-              experience.
-            </p>
-
-            <div class="row my-5">
-              <div class="col-6 col-md-6">
-                <div class="feature">
-                  <h3>AR Try-on</h3>
-                  <p>
-                    Instantly try on 3D shoes on your feet using your phone's
-                    camera, providing a realistic in-store feeling right at
-                    home.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-6 col-md-6">
-                <div class="feature">
-                  <h3>Style Advisor (AI Styling)</h3>
-                  <p>
-                    Our exclusive AI suggests perfect outfits, helping you stand
-                    out and match the chosen shoe style.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-6 col-md-6">
-                <div class="feature">
-                  <h3>AI Generate 2D (Hyper-realistic Images)</h3>
-                  <p>
-                    View products through sharp, detailed 2D images created by
-                    AI, ensuring absolute realism.
-                  </p>
-                </div>
-              </div>
-
-              <div class="col-6 col-md-6">
-                <div class="feature">
-                  <h3>Perfect Sizing (3D Sizing)</h3>
-                  <p>
-                    3D technology ensures you always choose the perfectly
-                    fitting shoe size, eliminating concerns about returns or
-                    exchanges.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Why Choose Us Section -->
-
-    <!-- Start Footer Section -->
-    <footer class="footer-section">
-      <div class="container relative">
-        <div class="sofa-img">
-          <img src="images/Shoes/converse.png" alt="Footer images" class="img-fluid" />
-        </div>
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="subscription-form">
-              <h3 class="d-flex align-items-center">
-                <span class="me-2">
-                  <img
-                    src="images/Effects/envelope-outline.svg"
-                    alt="Envelope"
-                    class="img-fluid"
-                    width="24"
-                  />
-                </span>
-                <span>Subscribe to Newsletter</span>
-              </h3>
-              <form class="row g-3">
-                <div class="col-auto">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter your name"
-                  />
-                </div>
-                <div class="col-auto">
-                  <input
-                    type="email"
-                    class="form-control"
-                    placeholder="Enter your email"
-                  />
-                </div>
-                <div class="col-auto">
-                  <button class="btn btn-primary" type="submit">
-                    <span class="fa fa-paper-plane"></span> Send
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row g-5 align-items-start justify-content-between">
-          <div class="col-lg-4">
-            <div class="mb-4 footer-logo-wrap">
-              <a href="/" class="footer-logo"> ShoeFit<span>.</span> </a>
-            </div>
-            <p class="mb-4">Slogan.</p>
-            <ul class="list-unstyled custom-social d-flex gap-3 mb-4">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 me-4">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Khám Phá</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tryonar.html">Thử Giày Ảo AR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tryon2d.html">Thử Giày AI 2D</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="styleadvisor.html">Tư Vấn Phong Cách</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <a class="nav-link p-0" href="search.html">
+            <img src="images/Effects/search.svg" alt="Search" width="22" />
+          </a>
+          <a class="nav-link p-0" href="wishlist.html">
+            <img src="images/Effects/heart.svg" alt="Wishlist" width="22" />
+          </a>
+          <div class="dropdown custom-dropdown">
+            <button class="btn dropdown-toggle p-0 bg-transparent border-0" type="button" id="userDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="images/Effects/user.svg" alt="User" width="24" />
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="userDropdown">
               <li>
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
+                <a class="dropdown-item" href="profile.html"><i class="fa-regular fa-user me-2"></i> Hồ Sơ</a>
               </li>
               <li>
-                <a
-                  href="https://x.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa-brands fa-x"></i>
-                </a>
+                <a class="dropdown-item" href="settings.html"><i class="fa-solid fa-gear me-2"></i> Cài Đặt</a>
               </li>
               <li>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
+                <hr class="dropdown-divider" />
               </li>
               <li>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
+                <a class="dropdown-item text-danger" href="logout.html"><i
+                    class="fa-solid fa-right-from-bracket me-2"></i>
+                  Đăng Xuất</a>
               </li>
             </ul>
-            <div class="d-flex justify-content-start gap-3 mt-2">
-              <a href="tryonar.html" target="_self" rel="noopener noreferrer">
-                <img
-                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                  alt="Download on the App Store"
-                  height="45"
-                />
-              </a>
-              <a href="tryonar.html" target="_self" rel="noopener noreferrer">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                  alt="Get it on Google Play"
-                  height="45"
-                />
-              </a>
-            </div>
           </div>
-          <div class="col-lg-7 ms-auto">
-            <div class="row links-wrap">
-              <div class="col-6 col-md-6">
-                <ul class="list-unstyled">
-                  <li class="mb-2"><a href="about.html">About us</a></li>
-                  <li class="mb-2"><a href="services.html">Services</a></li>
-                  <li class="mb-2"><a href="blog.html">Blog</a></li>
-                  <li class="mb-2"><a href="contact.html">Contact us</a></li>
-                </ul>
+          <div class="dropdown custom-dropdown">
+            <button class="btn dropdown-toggle p-0 bg-transparent border-0" type="button" id="userDropdown"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="images/Effects/globe.svg" alt="Globe" width="24" />
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="userDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Tiếng Việt</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">English</a>
+              </li>
+            </ul>
+          </div>
+          <a href="tryonAR.html" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm"
+            style="background: #30a5e3; border: none; transition: 0.3s" onmouseover="this.style.background='#0797e4'"
+            onmouseout="this.style.background='#0797e4'">
+            Tải Ngay
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Header/Navigation -->
+
+  <!-- Start Why Choose Us Section -->
+  <div class="why-choose-section mt-5">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5">
+          <div class="img-wrap">
+            <img src="images/Effects/why-choose.jpg" alt="ShoeFit AR and AI Technology Showcase" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="section-title">Thử Giày Ảo AI & AR</h2>
+          <p>
+            ShoeFit là ứng dụng đầu tiên tại Việt Nam kết hợp công nghệ AI và
+            3D. Thử giày ảo, tìm kích cỡ hoàn hảo và nhận tư vấn phong cách cá
+            nhân hóa — mang đến trải nghiệm mua sắm giày trực tuyến tự tin và
+            tiện lợi.
+          </p>
+
+          <div class="row my-5">
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <h3>Thử giày AR</h3>
+                <p>
+                  Thử giày 3D ngay lập tức bằng camera điện thoại của bạn.
+                  Mang đến trải nghiệm thực tế như tại cửa hàng ngay tại nhà.
+                </p>
               </div>
-              <div class="col-6 col-md-6">
-                <ul class="list-unstyled">
-                  <li class="mb-2"><a href="/">Support</a></li>
-                  <li class="mb-2"><a href="about.html">Our team</a></li>
-                  <li class="mb-2"><a href="/">Leadership</a></li>
-                  <li class="mb-2"><a href="/">Privacy Policy</a></li>
-                </ul>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <h3>Tư vấn Phong cách</h3>
+                <p>
+                  Nhận gợi ý trang phục cá nhân hóa từ AI của chúng tôi. Chúng
+                  tôi sẽ giúp bạn tìm ra vẻ ngoài hoàn hảo để phối với đôi
+                  giày.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <h3>Thử Giày AI 2D</h3>
+                <p>
+                  Tải ảnh của bạn lên và xem ngay hình ảnh thực tế của bạn khi mang đôi giày bạn chọn — được hỗ trợ bởi
+                  công nghệ AI tiên tiến.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-6">
+              <div class="feature">
+                <h3>Hình ảnh AI Siêu thực</h3>
+                <p>
+                  Xem hình ảnh 2D siêu thực của mọi sản phẩm. AI của chúng tôi
+                  đảm bảo bạn thấy rõ mọi chi tiết.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="copyright border-top pt-4 mt-4">
-          <div class="row align-items-center">
-            <div class="col-lg-6 text-center text-lg-start">
-              <p class="mb-0">&copy; 2025 ShoeFit. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Why Choose Us Section -->
+
+  <!-- Start Footer Section -->
+  <footer class="footer-section">
+    <div class="container relative">
+      <div class="sofa-img">
+        <img src="images/Effects/footer_img.png" alt="Footer image" class="img-fluid" />
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="subscription-form">
+            <h3 class="d-flex align-items-center">
+              <span class="me-2">
+                <img src="images/Effects/envelope-outline.svg" alt="Envelope" class="img-fluid" width="24" />
+              </span>
+              <span>Đăng Ký Nhận Bản Tin</span>
+            </h3>
+            <form class="row g-3">
+              <div class="col-auto">
+                <input type="text" class="form-control" placeholder="Nhập tên của bạn" />
+              </div>
+              <div class="col-auto">
+                <input type="email" class="form-control" placeholder="Nhập email của bạn" />
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-blue" type="submit">
+                  <span class="fa fa-paper-plane"></span> Gửi
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row g-5 align-items-start justify-content-between">
+        <div class="col-lg-4">
+          <div class="mb-4 footer-logo-wrap">
+            <a href="/" class="footer-logo"> ShoeFit<span>.</span> </a>
+          </div>
+          <p class="mb-4">Try On. Fit Right. Shop Smart</p>
+          <ul class="list-unstyled custom-social d-flex gap-3 mb-4">
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-start gap-3 mt-2">
+            <a href="tryonar.html" target="_self" rel="noopener noreferrer">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store" height="45" />
+            </a>
+            <a href="tryonar.html" target="_self" rel="noopener noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                alt="Get it on Google Play" height="45" />
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-7 ms-auto">
+          <div class="row links-wrap">
+            <div class="col-6 col-md-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="about.html">Về Chúng Tôi</a></li>
+                <li class="mb-2"><a href="services.html">Dịch Vụ</a></li>
+                <li class="mb-2"><a href="blog.html">Blog</a></li>
+                <li class="mb-2"><a href="contact.html">Liên Hệ</a></li>
+              </ul>
             </div>
-            <div class="col-lg-6 text-center text-lg-end">
-              <ul class="list-unstyled d-inline-flex mb-0 gap-4">
-                <li><a href="/terms-conditions">Terms &amp; Conditions</a></li>
-                <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <div class="col-6 col-md-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#">Hỗ Trợ</a></li>
+                <li class="mb-2"><a href="#">Đội Ngũ</a></li>
+                <li class="mb-2"><a href="#">Lãnh Đạo</a></li>
+                <li class="mb-2"><a href="#">Chính Sách Bảo Mật</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <button id="scrollToTopBtn" title="Go to top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-    <!-- End Footer Section -->
+      <div class="copyright border-top pt-4 mt-4">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <p class="mb-0">&copy; 2025 ShoeFit. Đã đăng ký Bản quyền.</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-end">
+            <ul class="list-unstyled d-inline-flex mb-0 gap-4">
+              <li><a href="#">Điều khoản & Điều kiện</a></li>
+              <li><a href="#">Chính sách Bảo mật</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <button id="scrollToTopBtn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <!-- End Footer Section -->
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
 </html>

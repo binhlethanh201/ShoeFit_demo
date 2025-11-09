@@ -1,5 +1,5 @@
 {
-  "products": [
+"products": [
     {
       "id": "adidasgazelle",
       "name": "Adidas Gazelle",
@@ -24,290 +24,288 @@
     {
       "id": "adizeroevosl",
       "name": "Adidas Adizero Evo SL",
-      "description": "An ultralight performance runner engineered for racing and personal bests. Streamlined design with advanced foam technology.",
-      "ai_description": "Minimalist running shoe with a thin, translucent mesh upper. Lightweight foam midsole with a rocker geometry. Minimal rubber outsole for grip.",
+      "description": "Một đôi giày chạy hiệu suất siêu nhẹ được thiết kế cho các cuộc đua và kỷ lục cá nhân. Thiết kế tinh gọn với công nghệ đệm xốp tiên tiến.",
+      "ai_description": "Giày chạy tối giản với thân giày bằng lưới mỏng, mờ. Đế giữa bằng xốp nhẹ với hình dạng rocker (cong vênh). Đế ngoài bằng cao su tối giản để bám đường.",
       "image_url": "images/Shoes/adizeroevosl.png"
     },
     {
       "id": "jordan4cementwhite",
       "name": "Air Jordan 4 Retro OG ‘White Cement’ 2016",
-      "description": "The iconic Jordan 4 Retro combines heritage design and modern comfort for everyday wear.",
-      "ai_description": "Classic yet timeless. Perfect for sneaker collectors and casual wear.",
+      "description": "Mẫu Jordan 4 Retro mang tính biểu tượng, kết hợp thiết kế di sản và sự thoải mái hiện đại để mang hàng ngày.",
+      "ai_description": "Cổ điển nhưng vượt thời gian. Hoàn hảo cho các nhà sưu tập sneaker và trang phục thường ngày.",
       "image_url": "images/Shoes/jordan4cementwhite.png"
     },
     {
       "id": "sambaog",
       "name": "Adidas Samba OG ‘White Black Gum’",
-      "description": "A timeless streetwear classic — the Samba OG offers premium leather and vintage style.",
-      "ai_description": "Minimalist design with retro charm. Great for daily casual looks.",
+      "description": "Một mẫu giày cổ điển vượt thời gian của thời trang đường phố — Samba OG mang đến chất liệu da cao cấp và phong cách cổ điển.",
+      "ai_description": "Thiết kế tối giản với nét quyến rũ cổ điển. Tuyệt vời cho vẻ ngoài thường ngày.",
       "image_url": "images/Shoes/samba.png"
     },
     {
       "id": "airforce1",
       "name": "Nike Air Force 1 ’07 ‘Triple White’",
-      "description": "The all-time favorite Air Force 1 Low features clean lines and classic white leather.",
-      "ai_description": "Versatile and iconic. A must-have sneaker for any wardrobe.",
+      "description": "Đôi Air Force 1 Low được yêu thích mọi thời đại, nổi bật với những đường nét gọn gàng và chất liệu da trắng cổ điển.",
+      "ai_description": "Linh hoạt và mang tính biểu tượng. Một đôi sneaker phải có trong bất kỳ tủ đồ nào.",
       "image_url": "images/Shoes/af1.png"
     },
     {
       "id": "conversehightop",
       "name": "Converse Chuck Taylor All-Stars High-top",
-      "description": "The legendary Converse high-tops — versatile, durable, and effortlessly stylish.",
-      "ai_description": "Casual yet expressive. Perfect for creative personalities.",
+      "description": "Đôi Converse cổ cao huyền thoại — linh hoạt, bền bỉ và phong cách một cách dễ dàng.",
+      "ai_description": "Thường ngày nhưng đầy biểu cảm. Hoàn hảo cho những cá tính sáng tạo.",
       "image_url": "images/Shoes/converse.png"
     },
-
     {
       "id": "vansoldskool",
       "name": "Vans Old Skool OG Black White",
-      "description": "The classic low-top skate shoe featuring the iconic sidestripe. Durable canvas/suede construction for versatile street style.",
-      "ai_description": "Black suede/canvas low-top with thick white leather sidestripe, white laces, and stitching. White vulcanized midsole/brown waffle outsole.",
+      "description": "Đôi giày trượt ván cổ thấp cổ điển có sọc sidestripe mang tính biểu tượng. Cấu trúc vải canvas/da lộn bền bỉ cho phong cách đường phố linh hoạt.",
+      "ai_description": "Giày cổ thấp bằng da lộn/canvas màu đen với sọc sidestripe bằng da trắng dày, dây giày và đường may màu trắng. Đế giữa lưu hóa màu trắng/đế ngoài waffle màu nâu.",
       "image_url": "images/Shoes/vans.png"
     },
     {
       "id": "adizerosl2",
       "name": "Adidas Adizero Sl2",
-      "description": "A lightweight running shoe built for speed and daily training. Features responsive cushioning in a breathable mesh upper.",
-      "ai_description": "Lightweight mesh upper (often white/black) with three signature stripes. Cushioned foam midsole with color accents. Durable rubber outsole.",
+      "description": "Một đôi giày chạy nhẹ được thiết kế cho tốc độ và luyện tập hàng ngày. Nổi bật với lớp đệm đàn hồi trong thân giày bằng lưới thoáng khí.",
+      "ai_description": "Thân giày bằng lưới nhẹ (thường là màu trắng/đen) với ba sọc đặc trưng. Đế giữa bằng xốp có đệm với các điểm nhấn màu sắc. Đế ngoài bằng cao su bền bỉ.",
       "image_url": "images/Shoes/adizerosl2.png"
     },
     {
       "id": "poloralphlaurencourt",
       "name": "Polo Ralph Lauren Court VLC Shoes",
-      "description": "Classic court-inspired sneaker with a clean, vulcanized finish. Features the iconic Polo logo for a timeless, preppy aesthetic.",
-      "ai_description": "Low-top canvas sneaker (typically white). Embroidered Polo player logo on the side. White rubber midsole with foxing tape. Brown gum or white outsole.",
+      "description": "Đôi sneaker lấy cảm hứng từ sân tennis cổ điển với lớp hoàn thiện lưu hóa sạch sẽ. Nổi bật với logo Polo mang tính biểu tượng cho vẻ ngoài preppy vượt thời gian.",
+      "ai_description": "Giày sneaker cổ thấp bằng vải canvas (thường là màu trắng). Logo người chơi Polo thêu ở bên hông. Đế giữa bằng cao su trắng với dải băng viền. Đế ngoài màu gôm nâu hoặc trắng.",
       "image_url": "images/Shoes/poloralphlaurencourt.png"
     },
     {
       "id": "adidassupernovarise",
       "name": "Adidas Supernova Rise",
-      "description": "A comfortable daily trainer for everyday runs. Balances support and energy return with new Dreamstrike+ cushioning.",
-      "ai_description": "Engineered mesh upper with padded collar. Thick, cushioned midsole (e.g., Dreamstrike+ foam). Support rods visible. Black rubber outsole.",
+      "description": "Một đôi giày luyện tập hàng ngày thoải mái cho các buổi chạy. Cân bằng giữa hỗ trợ và hoàn trả năng lượng với lớp đệm Dreamstrike+ mới.",
+      "ai_description": "Thân giày bằng lưới kỹ thuật với cổ giày có đệm. Đế giữa dày, có đệm (ví dụ: xốp Dreamstrike+). Có thể nhìn thấy các thanh hỗ trợ. Đế ngoài bằng cao su đen.",
       "image_url": "images/Shoes/adidassupernovarise.png"
     },
     {
       "id": "oncloudnova2",
       "name": "On Cloudnova 2 New Generation All White",
-      "description": "The all-day sneaker with next-gen CloudTec cushioning. Fuses performance tech with a minimalist, street-ready 'All White' design.",
-      "ai_description": "Monochromatic all-white low-top sneaker. Sock-like upper construction. Signature midsole with individual 'Cloud' pods (CloudTec).",
+      "description": "Đôi sneaker mang cả ngày với lớp đệm CloudTec thế hệ mới. Kết hợp công nghệ hiệu suất với thiết kế 'All White' tối giản, sẵn sàng xuống phố.",
+      "ai_description": "Giày sneaker cổ thấp toàn màu trắng đơn sắc. Cấu trúc thân giày giống như một chiếc tất. Đế giữa đặc trưng với các 'đám mây' riêng lẻ (CloudTec).",
       "image_url": "images/Shoes/oncloudnova2.png"
     },
     {
       "id": "rigorerarskate",
       "name": "Rigorer AR Skate Shoes 'Full White'",
-      "description": "A clean, skate-inspired silhouette from Rigorer. This 'Full White' colorway offers minimalist style for casual, off-court wear.",
-      "ai_description": "All-white leather or synthetic upper. Low-top design with a padded collar. Flat white vulcanized-style midsole and matching outsole.",
+      "description": "Một kiểu dáng gọn gàng, lấy cảm hứng từ giày trượt ván từ Rigorer. Phối màu 'Full White' này mang đến phong cách tối giản để mang thường ngày, ngoài sân đấu.",
+      "ai_description": "Thân giày bằng da hoặc vật liệu tổng hợp toàn màu trắng. Thiết kế cổ thấp với cổ giày có đệm. Đế giữa kiểu lưu hóa màu trắng phẳng và đế ngoài đồng màu.",
       "image_url": "images/Shoes/rigorerarskate.png"
     },
     {
       "id": "drmartens1461smoothleather",
       "name": "Dr. Martens 1461 Smooth Leather Oxford Shoes",
-      "description": "The iconic 3-eye unisex shoe. Crafted from durable smooth leather with signature yellow stitching and an air-cushioned sole.",
-      "ai_description": "Black smooth leather low-cut shoe with 3 eyelets. Visible yellow welt stitching. Translucent, grooved PVC air-cushioned sole.",
+      "description": "Đôi giày 3 lỗ xỏ dây unisex mang tính biểu tượng. Được chế tác từ da mịn bền bỉ với đường chỉ vàng đặc trưng và đế đệm khí.",
+      "ai_description": "Giày cổ thấp bằng da mịn màu đen với 3 lỗ xỏ dây. Đường may viền (welt) màu vàng có thể nhìn thấy. Đế đệm khí bằng PVC mờ, có rãnh.",
       "image_url": "images/Shoes/drmartens1461smoothleather.png"
     },
     {
       "id": "chucktaylorallstarclean",
       "name": "Converse Chuck Taylor All Star Clean 'n Preme",
-      "description": "A premium, minimalist take on the timeless Chuck Taylor. Elevated materials and clean lines redefine the classic silhouette.",
-      "ai_description": "Classic Chuck Taylor silhouette (high-top or low-top). Premium canvas or leather upper. White rubber toe cap and midsole. Minimalist branding.",
+      "description": "Một phiên bản cao cấp, tối giản của đôi Chuck Taylor vượt thời gian. Vật liệu cao cấp và đường nét gọn gàng định nghĩa lại kiểu dáng cổ điển.",
+      "ai_description": "Kiểu dáng Chuck Taylor cổ điển (cổ cao hoặc cổ thấp). Thân giày bằng canvas hoặc da cao cấp. Mũi giày và đế giữa bằng cao su trắng. Nhãn hiệu tối giản.",
       "image_url": "images/Shoes/chucktaylorallstarclean.png"
     },
     {
       "id": "newbalanceaimeleondore",
       "name": "NEW BALANCE X AIMÉ LEON DORE 860V2 Blue Mesh Retro",
-      "description": "A retro-tech runner redefined by Aimé Leon Dore. Blends early 2010s performance aesthetics with ALD's signature refined style.",
-      "ai_description": "Retro running shoe with a blue open-mesh base. Silver and gold metallic synthetic overlays. N-ergy foam midsole (off-white). Black rubber outsole.",
+      "description": "Một đôi giày chạy retro-tech được định nghĩa lại bởi Aimé Leon Dore. Pha trộn thẩm mỹ hiệu suất đầu những năm 2010 với phong cách tinh tế đặc trưng của ALD.",
+      "ai_description": "Giày chạy cổ điển với nền lưới thoáng màu xanh dương. Các lớp phủ tổng hợp màu bạc và vàng kim loại. Đế giữa bằng xốp N-ergy (màu trắng ngà). Đế ngoài bằng cao su đen.",
       "image_url": "images/Shoes/newbalanceaimeleondore.png"
     },
     {
       "id": "jordan3retropuremoney",
       "name": "Air Jordan 3 Retro 'Pure Money'",
-      "description": "The iconic Air Jordan 3 in a pristine 'Pure Money' colorway. Features an all-white tumbled leather upper with metallic silver details.",
-      "ai_description": "All-white mid-top basketball shoe. Tumbled leather upper. Signature elephant print overlays in light grey. Visible Air unit in the heel.",
+      "description": "Đôi Air Jordan 3 mang tính biểu tượng trong phối màu 'Pure Money' tinh khôi. Nổi bật với thân giày bằng da sần (tumbled leather) toàn màu trắng cùng các chi tiết màu bạc kim loại.",
+      "ai_description": "Giày bóng rổ cổ trung toàn màu trắng. Thân giày bằng da sần. Các lớp phủ họa tiết da voi (elephant print) đặc trưng màu xám nhạt. Bộ đệm Air có thể nhìn thấy ở gót.",
       "image_url": "images/Shoes/jordan3retropuremoney.png"
     },
     {
       "id": "timberland3eyelughandsewnboat",
       "name": "Timberland 3-Eye Lug Handsewn Boat 'Brown'",
-      "description": "The classic handsewn boat shoe upper fused with a rugged Timberland lug sole. Premium brown leather for a timeless, durable style.",
-      "ai_description": "Brown full-grain leather upper. Handsewn moc-toe construction. 360-degree rawhide lacing system. Thick, chunky rubber lug outsole.",
+      "description": "Thân giày boat shoe may thủ công cổ điển được kết hợp với đế lug (đế có rãnh) chắc chắn của Timberland. Da nâu cao cấp cho phong cách bền bỉ, vượt thời gian.",
+      "ai_description": "Thân giày bằng da full-grain màu nâu. Cấu trúc moc-toe may thủ công. Hệ thống dây buộc bằng da sống 360 độ. Đế ngoài lug bằng cao su dày, hầm hố.",
       "image_url": "images/Shoes/timberland3eyelughandsewnboat.png"
     },
     {
       "id": "vansclassicauthentic",
       "name": "Vans Classic Authentic Red",
-      "description": "The original Vans heritage shoe. A simple low-top, lace-up profile with a durable red canvas upper and signature waffle outsole.",
-      "ai_description": "Vibrant red canvas low-top. Metal eyelets and white laces. White vulcanized midsole with black foxing stripe. Brown waffle outsole.",
+      "description": "Đôi giày di sản nguyên bản của Vans. Kiểu dáng cổ thấp, buộc dây đơn giản với thân giày bằng vải canvas đỏ bền bỉ và đế ngoài waffle đặc trưng.",
+      "ai_description": "Giày cổ thấp bằng vải canvas màu đỏ rực. Lỗ xỏ dây kim loại và dây giày màu trắng. Đế giữa lưu hóa màu trắng với sọc viền đen. Đế ngoài waffle màu nâu.",
       "image_url": "images/Shoes/vansclassicauthentic.png"
     },
     {
       "id": "vanssk8hihightop",
       "name": "Vans Classic SK8-HI Black/White",
-      "description": "The legendary lace-up high-top skate shoe. Features durable suede/canvas uppers, padded collars, and the iconic sidestripe.",
-      "ai_description": "Black suede/canvas high-top. White leather sidestripe and white laces. Padded ankle collar. White vulcanized midsole/brown waffle outsole.",
+      "description": "Đôi giày trượt ván cổ cao buộc dây huyền thoại. Nổi bật với thân giày bằng da lộn/canvas bền bỉ, cổ giày có đệm và sọc sidestripe mang tính biểu tượng.",
+      "ai_description": "Giày cổ cao bằng da lộn/canvas màu đen. Sọc sidestripe bằng da trắng và dây giày trắng. Cổ giày có đệm. Đế giữa lưu hóa màu trắng/đế ngoài waffle màu nâu.",
       "image_url": "images/Shoes/vanssk8hihightop.png"
     },
     {
       "id": "dunkhighretrocargokhaki",
       "name": "Nike Dunk High Retro 'Cargo Khaki'",
-      "description": "The '80s basketball icon returns. This retro features a classic two-tone look with a white leather base and 'Cargo Khaki' overlays.",
-      "ai_description": "White leather high-top with 'Cargo Khaki' (olive green) overlays. Khaki Swoosh, laces, and outsole. White nylon tongue and white midsole.",
+      "description": "Biểu tượng bóng rổ thập niên 80 trở lại. Phiên bản retro này có giao diện hai tông màu cổ điển với nền da trắng và các lớp phủ màu 'Cargo Khaki'.",
+      "ai_description": "Giày cổ cao bằng da trắng với các lớp phủ màu 'Cargo Khaki' (xanh ô liu). Logo Swoosh, dây giày và đế ngoài màu khaki. Lưỡi gà bằng nylon trắng và đế giữa trắng.",
       "image_url": "images/Shoes/dunkhighretrocargokhaki.png"
     },
-
     {
       "id": "carrybarrettecowhide",
       "name": "Carry Barrette Cowhide Classic Loafer",
-      "description": "A timeless loafer crafted from genuine cowhide. Features a classic barrette strap across the vamp for a polished, sophisticated look.",
-      "ai_description": "Smooth cowhide leather loafer (often black or brown). Classic silhouette with a barrette strap detail across the vamp. Low stacked heel.",
+      "description": "Một đôi loafer vượt thời gian được chế tác từ da bò thật. Nổi bật với một quai ngang (barrette) cổ điển bắc qua phần thân trên (vamp) cho vẻ ngoài bóng bẩy, tinh tế.",
+      "ai_description": "Giày loafer bằng da bò mịn (thường là màu đen hoặc nâu). Kiểu dáng cổ điển với chi tiết quai ngang (barrette) trên thân. Gót giày xếp lớp thấp.",
       "image_url": "images/Shoes/carrybarrettecowhide.png"
     },
     {
       "id": "poloralphlaurenvelvet",
       "name": "Polo Ralph Lauren velvet loafer",
-      "description": "An elegant slip-on crafted from plush velvet. Features the signature Polo embroidered logo for a refined, luxurious aesthetic.",
-      "ai_description": "Plush velvet upper (e.g., black, navy). Embroidered Polo logo or crest on the vamp. Quilted satin lining. Low stacked heel.",
+      "description": "Một đôi giày lười (slip-on) thanh lịch được chế tác từ vải nhung sang trọng. Nổi bật với logo Polo thêu đặc trưng cho vẻ ngoài tinh tế, xa hoa.",
+      "ai_description": "Thân giày bằng nhung (ví dụ: đen, xanh navy). Logo Polo thêu hoặc huy hiệu trên thân. Lớp lót satin chần bông. Gót giày xếp lớp thấp.",
       "image_url": "images/Shoes/poloralphlaurenvelvet.png"
     },
     {
       "id": "horsebitloafersdarkbrowncalf",
       "name": "Horsebit Loafers Dark Brown Calf",
-      "description": "An iconic loafer silhouette in rich dark brown calf leather. Defined by the signature polished metal horsebit hardware.",
-      "ai_description": "Dark brown calfskin leather upper. Polished gold or silver-tone horsebit hardware on the vamp. Moc-toe construction. Low stacked heel.",
+      "description": "Một kiểu dáng loafer mang tính biểu tượng bằng da bê màu nâu sẫm. Được định hình bởi chi tiết kim loại horsebit (hàm thiếc ngựa) được đánh bóng đặc trưng.",
+      "ai_description": "Thân giày bằng da bê màu nâu sẫm. Chi tiết horsebit kim loại tông vàng hoặc bạc được đánh bóng trên thân. Cấu trúc moc-toe. Gót giày xếp lớp thấp.",
       "image_url": "images/Shoes/horsebitloafersdarkbrowncalf.png"
     },
     {
       "id": "leisurehandsewn",
       "name": "Leisure Handsewn Color 8 Shell Cordovan",
-      "description": "An iconic handsewn penny loafer. Crafted from luxurious 'Color 8' (deep burgundy) Shell Cordovan leather for unmatched durability.",
-      "ai_description": "'Color 8' (deep burgundy) shell cordovan leather. Handsewn moc-toe with a classic penny strap. Leather sole and stacked heel.",
+      "description": "Một đôi penny loafer may thủ công mang tính biểu tượng. Được chế tác từ da Shell Cordovan 'Màu 8' (đỏ burgundy đậm) sang trọng cho độ bền vô song.",
+      "ai_description": "Da shell cordovan 'Màu 8' (đỏ burgundy đậm). Mũi moc-toe may thủ công với quai penny cổ điển. Đế da và gót giày xếp lớp.",
       "image_url": "images/Shoes/leisurehandsewn.png"
     },
     {
       "id": "seanladywolfpenny",
       "name": "The Sean Lady Wolf Penny Loafer - Brown & OFF-WHITE",
-      "description": "A modern, two-tone penny loafer. Features a striking combination of brown and off-white leather, often paired with a chunky lug sole.",
-      "ai_description": "Two-tone leather upper (brown and off-white). Classic penny strap design. Chunky or exaggerated rubber lug sole for a modern look.",
+      "description": "Một đôi penny loafer hai tông màu hiện đại. Nổi bật với sự kết hợp ấn tượng của da màu nâu và trắng ngà, thường đi kèm với đế lug hầm hố.",
+      "ai_description": "Thân giày bằng da hai tông màu (nâu và trắng ngà). Thiết kế quai penny cổ điển. Đế lug bằng cao su hầm hố hoặc phóng đại cho vẻ ngoài hiện đại.",
       "image_url": "images/Shoes/seanladywolfpenny.png"
     },
     {
       "id": "sambawalesbonnersilver",
       "name": "Adidas Samba Wales Bonner Silver",
-      "description": "A Wales Bonner collaboration on the iconic Samba. Features a striking metallic silver upper with signature crochet details and a gum sole.",
-      "ai_description": "Metallic silver leather upper. Crochet three-stripes (e.g., cream). Suede T-toe overlay. Elongated fold-over tongue. Gum rubber sole.",
+      "description": "Một sản phẩm hợp tác với Wales Bonner trên mẫu Samba mang tính biểu tượng. Nổi bật với thân giày màu bạc kim loại ấn tượng cùng các chi tiết móc (crochet) đặc trưng và đế gôm.",
+      "ai_description": "Thân giày bằng da màu bạc kim loại. Ba sọc móc (ví dụ: màu kem). Lớp phủ da lộn hình chữ T ở mũi giày. Lưỡi gà gập dài. Đế cao su gôm.",
       "image_url": "images/Shoes/sambawalesbonnersilver.png"
     },
     {
       "id": "guccibrixtoncollapsibleheel",
       "name": "Gucci Brixton collapsible-heel leather loafer",
-      "description": "Gucci's iconic horsebit loafer in soft leather. Features a unique collapsible heel, allowing it to be worn as a loafer or a mule.",
-      "ai_description": "Smooth leather loafer (often black). Gold-tone horsebit hardware on the vamp. Almond toe. Soft, foldable leather at the heel.",
+      "description": "Đôi loafer horsebit mang tính biểu tượng của Gucci bằng da mềm. Nổi bật với phần gót có thể gập lại độc đáo, cho phép mang như giày loafer hoặc giày mule (sục).",
+      "ai_description": "Giày loafer bằng da mịn (thường là màu đen). Chi tiết horsebit tông vàng trên thân. Mũi giày hình hạnh nhân. Da mềm, có thể gập lại ở gót.",
       "image_url": "images/Shoes/guccibrixtoncollapsibleheel.png"
     },
     {
       "id": "saintlaurentwyattchelseaboots",
       "name": "Saint Laurent Wyatt Chelsea Boots In Suede 'Brown'",
-      "description": "The iconic YSL Chelsea boot in rich brown suede. Features elastic side panels, an almond toe, and a signature stacked Cuban heel.",
-      "ai_description": "Brown suede upper. Ankle-high Chelsea boot design. Elastic side panels. Leather pull-tab. Stacked Cuban heel. Leather sole.",
+      "description": "Đôi Chelsea boot mang tính biểu tượng của YSL bằng da lộn màu nâu đậm. Nổi bật với các mảng thun co giãn ở hông, mũi giày hình hạnh nhân và gót giày Cuban xếp lớp đặc trưng.",
+      "ai_description": "Thân giày bằng da lộn màu nâu. Thiết kế Chelsea boot cao đến mắt cá chân. Các mảng thun co giãn ở hông. Miếng kéo bằng da. Gót Cuban xếp lớp. Đế da.",
       "image_url": "images/Shoes/saintlaurentwyattchelseaboots.png"
     },
     {
       "id": "wrangleryuma",
       "name": "Wrangler Yuma Men's Leather Lace Up Combat Boots",
-      "description": "A rugged men's combat boot by Wrangler. Features a durable leather upper, lace-up front, and a chunky rubber sole for everyday wear.",
-      "ai_description": "Leather upper (brown or black). Ankle-high combat boot style. Lace-up closure with eyelets/hooks. Padded collar. Thick rubber lug sole.",
+      "description": "Một đôi combat boot nam chắc chắn của Wrangler. Nổi bật với thân giày bằng da bền bỉ, mặt trước buộc dây và đế cao su hầm hố để mang hàng ngày.",
+      "ai_description": "Thân giày bằng da (nâu hoặc đen). Kiểu dáng combat boot cao đến mắt cá chân. Buộc dây với các lỗ xỏ/móc. Cổ giày có đệm. Đế lug bằng cao su dày.",
       "image_url": "images/Shoes/wrangleryuma.png"
     },
     {
       "id": "eccoulttrn",
       "name": "ECCO Ult-Trn (m)",
-      "description": "A lightweight hiking shoe built for the trails. Combines a modern aesthetic with ECCO's comfort technology and a high-grip rubber outsole.",
-      "ai_description": "Modern hiking shoe. Mixed synthetic/textile upper. Lightweight PHORENE midsole. High-traction rubber outsole (often Michelin).",
+      "description": "Một đôi giày leo núi nhẹ được thiết kế cho những con đường mòn. Kết hợp thẩm mỹ hiện đại với công nghệ thoải mái của ECCO và đế ngoài bằng cao su có độ bám cao.",
+      "ai_description": "Giày leo núi hiện đại. Thân giày bằng vật liệu tổng hợp/vải dệt hỗn hợp. Đế giữa PHORENE nhẹ. Đế ngoài bằng cao su độ bám cao (thường là Michelin).",
       "image_url": "images/Shoes/eccoulttrn.png"
     },
     {
       "id": "newbalance993madeinusa",
       "name": "New Balance 993 Made in USA",
-      "description": "The iconic Made in USA runner. Blends premium suede and mesh with classic ABZORB cushioning for superior comfort and timeless style.",
-      "ai_description": "Classic grey suede overlays with grey mesh underlays. Reflective 'N' logo. Bulky ABZORB midsole. 'USA' branding on the heel.",
+      "description": "Đôi giày chạy 'Made in USA' mang tính biểu tượng. Pha trộn giữa da lộn và lưới cao cấp với lớp đệm ABZORB cổ điển cho sự thoải mái vượt trội và phong cách vượt thời gian.",
+      "ai_description": "Các lớp phủ bằng da lộn màu xám cổ điển với lớp lót lưới màu xám. Logo 'N' phản quang. Đế giữa ABZORB đồ sộ. Nhãn hiệu 'USA' ở gót.",
       "image_url": "images/Shoes/newbalance993madeinusa.png"
     },
     {
       "id": "acgairmowabbrattanbirch",
       "name": "Nike ACG Air Mowabb 'Rattan Birch'",
-      "description": "The iconic ACG hiking silhouette. Features a neoprene inner bootie, durable nubuck upper, and a speckled midsole for rugged, retro style.",
-      "ai_description": "Tan ('Rattan') nubuck upper. Blue/orange neoprene bootie. Huarache-like heel support system. Speckled grey midsole. Black/tan outsole.",
+      "description": "Kiểu dáng giày leo núi ACG mang tính biểu tượng. Nổi bật với lớp lót trong (bootie) bằng neoprene, thân giày bằng nubuck bền bỉ và đế giữa lốm đốm cho phong cách retro, chắc chắn.",
+      "ai_description": "Thân giày bằng nubuck màu rám nắng ('Rattan'). Lót trong bằng neoprene màu xanh/cam. Hệ thống hỗ trợ gót kiểu Huarache. Đế giữa màu xám lốm đốm. Đế ngoài màu đen/tan.",
       "image_url": "images/Shoes/acgairmowabbrattanbirch.png"
     },
     {
       "id": "andwanderxsalomonodyssey1",
       "name": "And Wander x Salomon Odyssey 1",
-      "description": "A Salomon long-distance hiker, reimagined by And Wander. Blends technical trail performance with a minimalist, functional aesthetic.",
-      "ai_description": "Technical synthetic upper (often monochrome). Welded overlays. Reflective details. Quicklace system. High-cushion, stable midsole.",
+      "description": "Một đôi giày leo núi đường dài của Salomon, được tái hiện bởi And Wander. Pha trộn hiệu suất đường mòn kỹ thuật với thẩm mỹ tối giản, đa dụng.",
+      "ai_description": "Thân giày bằng vật liệu tổng hợp kỹ thuật (thường là đơn sắc). Các lớp phủ hàn nhiệt. Chi tiết phản quang. Hệ thống Quicklace. Đế giữa ổn định, có đệm cao.",
       "image_url": "images/Shoes/andwanderxsalomonodyssey1.png"
     },
     {
       "id": "asicsgelkayano14",
       "name": "Asics Gel-Kayano 14 'Black Glacier Grey'",
-      "description": "A 2000s retro-tech runner. Features a black mesh base, metallic silver overlays, and visible GEL technology for all-day comfort.",
-      "ai_description": "Black mesh upper with metallic silver/grey synthetic overlays. Classic Asics stripes. White midsole with visible GEL units. Black outsole.",
+      "description": "Một đôi giày chạy retro-tech của những năm 2000. Nổi bật với nền lưới màu đen, các lớp phủ màu bạc kim loại và công nghệ GEL có thể nhìn thấy cho sự thoải mái cả ngày.",
+      "ai_description": "Thân giày bằng lưới đen với các lớp phủ tổng hợp màu bạc kim loại/xám. Sọc Asics cổ điển. Đế giữa màu trắng với các bộ đệm GEL có thể nhìn thấy. Đế ngoài màu đen.",
       "image_url": "images/Shoes/asicsgelkayano14.png"
     },
     {
       "id": "salomonxt6goretex",
       "name": "Salomon XT-6 Gore-Tex 'Black/Silver'",
-      "description": "The iconic trail runner, updated with a waterproof Gore-Tex membrane. Built for harsh conditions without sacrificing its signature style.",
-      "ai_description": "Black waterproof upper with synthetic welded overlays. GORE-TEX branding. Quicklace system. Two-tone ACS midsole. Contagrip outsole.",
+      "description": "Đôi giày chạy đường mòn mang tính biểu tượng, được cập nhật với màng chống nước Gore-Tex. Được thiết kế cho các điều kiện khắc nghiệt mà không làm mất đi phong cách đặc trưng.",
+      "ai_description": "Thân giày chống nước màu đen với các lớp phủ hàn nhiệt tổng hợp. Nhãn hiệu GORE-TEX. Hệ thống Quicklace. Đế giữa ACS hai tông màu. Đế ngoài Contagrip.",
       "image_url": "images/Shoes/salomonxt6goretex.png"
     },
     {
-      "id": "salomonxendxt6",
+      "id":"salomonxendxt6",
       "name": "Salomon x END. XT-6 'Porcini'",
-      "description": "An END. collaboration on the XT-6, inspired by 'Porcini' mushrooms. Features a unique, earthy color palette of brown, tan, and beige.",
-      "ai_description": "Mesh upper with earthy tones (beige/brown). Synthetic welded overlays. Quicklace system. ACS midsole. 'END.' branding.",
+      "description": "Một sản phẩm hợp tác của END. trên mẫu XT-6, lấy cảm hứng từ nấm 'Porcini'. Nổi bật với bảng màu đất độc đáo gồm nâu, rám nắng và be.",
+      "ai_description": "Thân giày bằng lưới với tông màu đất (be/nâu). Các lớp phủ hàn nhiệt tổng hợp. Hệ thống Quicklace. Đế giữa ACS. Nhãn hiệu 'END.'.",
       "image_url": "images/Shoes/salomonxendxt6.png"
     },
     {
       "id": "nb530",
       "name": "New Balance 530 'White Natural Indigo'",
-      "description": "A classic 2000s running shoe. Features a breathable white mesh upper with silver and 'Natural Indigo' (navy) overlays.",
-      "ai_description": "White mesh upper. Metallic silver and navy blue synthetic overlays. White 'N' logo with navy outline. ABZORB midsole. Black outsole.",
+      "description": "Một đôi giày chạy cổ điển của những năm 2000. Nổi bật với thân giày bằng lưới trắng thoáng khí cùng các lớp phủ màu bạc và 'Natural Indigo' (xanh navy).",
+      "ai_description": "Thân giày bằng lưới trắng. Các lớp phủ tổng hợp màu bạc kim loại và xanh navy. Logo 'N' màu trắng với viền xanh navy. Đế giữa ABZORB. Đế ngoài màu đen.",
       "image_url": "images/Shoes/nb530.jpeg"
     },
     {
       "id": "bitishunterx",
       "name": "Biti's Hunter X white",
-      "description": "A popular lifestyle sneaker from Vietnamese brand Biti's. This all-white version features a lightweight knit upper and cushioned sole.",
-      "ai_description": "All-white knit or mesh upper. Modern, sock-like construction. Cushioned white foam midsole. Tonal branding. Rubber outsole pods.",
+      "description": "Một đôi sneaker phong cách sống phổ biến từ thương hiệu Việt Nam Biti's. Phiên bản toàn màu trắng này có thân giày bằng vải dệt kim nhẹ và đế có đệm.",
+      "ai_description": "Thân giày bằng vải dệt kim hoặc lưới toàn màu trắng. Cấu trúc hiện đại, giống như một chiếc tất. Đế giữa bằng xốp trắng có đệm. Nhãn hiệu cùng tông màu. Các mảng đế ngoài bằng cao su.",
       "image_url": "images/Shoes/bitishunterx.png"
     },
     {
       "id": "aj4retro",
       "name": "Air Jordan 4 Retro 'Oxidized Green'",
-      "description": "The iconic AJ4 in a clean colorway. Features a premium white leather upper with 'Oxidized Green' accents on the eyelets and midsole.",
-      "ai_description": "White leather upper with white mesh panels. Metallic 'Oxidized Green' eyelets and midsole details. Jumpman logo. Visible Air heel unit.",
+      "description": "Đôi AJ4 mang tính biểu tượng trong một phối màu gọn gàng. Nổi bật với thân giày bằng da trắng cao cấp cùng các điểm nhấn 'Oxidized Green' (Xanh lá Oxy hóa) ở lỗ xỏ dây và đế giữa.",
+      "ai_description": "Thân giày bằng da trắng với các tấm lưới trắng. Lỗ xỏ dây và chi tiết đế giữa màu 'Xanh lá Oxy hóa' kim loại. Logo Jumpman. Bộ đệm Air ở gót có thể nhìn thấy.",
       "image_url": "images/Shoes/aj4retro.webp"
     },
     {
       "id": "asicsgel",
       "name": "ASICS GEL-KAYANO 14",
-      "description": "A 2000s retro-tech runner, prized for its layered aesthetic. Combines a breathable mesh upper with metallic overlays and visible GEL cushioning.",
-      "ai_description": "Layered mesh upper (often white/silver). Metallic synthetic overlays. Asics stripes on the side. White midsole with visible GEL units.",
+      "description": "Một đôi giày chạy retro-tech của những năm 2000, được đánh giá cao nhờ thẩm mỹ nhiều lớp. Kết hợp thân giày bằng lưới thoáng khí với các lớp phủ kim loại và đệm GEL có thể nhìn thấy.",
+      "ai_description": "Thân giày bằng lưới nhiều lớp (thường là trắng/bạc). Các lớp phủ tổng hợp kim loại. Sọc Asics ở bên hông. Đế giữa màu trắng với các bộ đệm GEL có thể nhìn thấy.",
       "image_url": "images/Shoes/asicsgel.webp"
     },
     {
       "id": "adidashandballspezial",
       "name": "Adidas Handball Spezial",
-      "description": "A '70s indoor handball classic, now a streetwear staple. Features a premium suede upper and a distinctive dark gum rubber outsole.",
-      "ai_description": "Suede upper in various colors. Contrast leather three-stripes and heel tab. Gold foil 'Spezial' branding. Dark gum rubber sole.",
+      "description": "Một mẫu giày bóng ném trong nhà cổ điển của thập niên 70, nay là một sản phẩm chủ lực của thời trang đường phố. Nổi bật với thân giày bằng da lộn cao cấp và đế ngoài bằng cao su gôm tối màu đặc biệt.",
+      "ai_description": "Thân giày bằng da lộn với nhiều màu sắc. Ba sọc và mấu gót bằng da tương phản. Nhãn hiệu 'Spezial' bằng giấy bạc vàng. Đế cao su gôm tối màu.",
       "image_url": "images/Shoes/adidashandballspezial.avif"
     },
     {
       "id": "adidasforumlow",
       "name": "Adidas Forum Low",
-      "description": "The iconic '80s basketball shoe, reimagined in a low-top. Defined by its premium leather upper and signature removable ankle strap.",
-      "ai_description": "Leather upper (typically white with color accents). Perforated toe box. Signature velcro ankle strap. Three-stripes. Rubber cupsole.",
+      "description": "Đôi giày bóng rổ mang tính biểu tượng của thập niên 80, được tái hiện ở dạng cổ thấp. Được định hình bởi thân giày bằng da cao cấp và quai đeo cổ chân có thể tháo rời đặc trưng.",
+      "ai_description": "Thân giày bằng da (thường là màu trắng với các điểm nhấn màu). Mũi giày đục lỗ. Quai dán velcro cổ chân đặc trưng. Ba sọc. Đế cupsole bằng cao su.",
       "image_url": "images/Shoes/adidasforumlow.avif"
     }
   ],
