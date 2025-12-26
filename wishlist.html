@@ -8,7 +8,6 @@
   <meta name="description" content="Your saved shoes and styles." />
   <meta name="keywords" content="wishlist, shoes, favorites" />
 
-  <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
   <link href="css/tiny-slider.css" rel="stylesheet" />
@@ -18,7 +17,6 @@
 </head>
 
 <body>
-  <!-- Start Header/Navigation -->
   <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3" aria-label="ShoeFit navigation bar">
     <div class="container d-flex align-items-center justify-content-between">
       <div class="collapse navbar-collapse" id="navbarsFurni">
@@ -91,20 +89,77 @@
       </div>
     </div>
   </nav>
-  <!-- End Header/Navigation -->
-
-  <!-- Wishlist Section -->
   <section class="product-section py-5">
     <div class="container">
       <h3 class="mb-4">Danh Sách Yêu Thích</h3>
-      <div id="wishlistContainer" class="row g-4"></div>
-      <p id="emptyWishlistMsg" class="text-muted text-center mt-4">
+      
+      <div id="wishlistContainer" class="row g-4">
+        
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative wishlist-card fade-in">
+              <a href="collection.html" class="text-decoration-none text-dark">
+                <img src="images/Shoes/adidasgazelle.png" class="card-img-top" alt="Adidas Gazelle">
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-3">Adidas Gazelle</h5>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center gap-2 pb-4">
+                <button class="btn btn-outline-danger btn-sm remove-btn">
+                  <i class="fas fa-trash-alt me-1"></i> Xoá 
+                </button>
+                <a href="tryon2d.html" class="btn btn-success btn-sm">
+                  <i class="fas fa-shoe-prints me-1"></i> Thử
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative wishlist-card fade-in">
+              <a href="collection.html" class="text-decoration-none text-dark">
+                <img src="images/Shoes/birkenstock.png" class="card-img-top" alt="Birkenstock Arizona">
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-3">Birkenstock Arizona</h5>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center gap-2 pb-4">
+                <button class="btn btn-outline-danger btn-sm remove-btn">
+                  <i class="fas fa-trash-alt me-1"></i> Xoá 
+                </button>
+                <a href="tryon2d.html" class="btn btn-success btn-sm">
+                  <i class="fas fa-shoe-prints me-1"></i> Thử
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative wishlist-card fade-in">
+              <a href="collection.html" class="text-decoration-none text-dark">
+                <img src="images/Shoes/nikeairjordan1lowog.png" class="card-img-top" alt="Nike Air Jordan 1 Low OG">
+                <div class="card-body text-center">
+                  <h5 class="fw-bold mb-3">Nike Air Jordan 1 Low OG</h5>
+                </div>
+              </a>
+              <div class="d-flex justify-content-center gap-2 pb-4">
+                <button class="btn btn-outline-danger btn-sm remove-btn">
+                  <i class="fas fa-trash-alt me-1"></i> Xoá 
+                </button>
+                <a href="tryon2d.html" class="btn btn-success btn-sm">
+                  <i class="fas fa-shoe-prints me-1"></i> Thử
+                </a>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+      <p id="emptyWishlistMsg" class="text-muted text-center mt-4" style="display: none;">
         Bạn chưa có đôi giày nào cả.
       </p>
     </div>
   </section>
 
-  <!-- Start Footer Section -->
   <footer class="footer-section" style="margin-top: 170px !important;">
     <div class="container relative">
       <div class="sofa-img">
@@ -213,53 +268,11 @@
   <button id="scrollToTopBtn" title="Go to top">
     <i class="fas fa-arrow-up"></i>
   </button>
-  <!-- End Footer Section -->
-
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/tiny-slider.js"></script>
   <script src="js/custom.js"></script>
+  
   <script>
-    const wishlist = [
-      {
-        name: "Adidas Gazelle",
-        img: "images/Shoes/adidasgazelle.png",
-      },
-      { name: "Birkenstock Arizona", img: "images/Shoes/birkenstock.png" },
-      {
-        name: "Nike Air Jordan 1 Low OG",
-        img: "images/Shoes/nikeairjordan1lowog.png",
-      },
-    ];
-
-    const wishlistContainer = document.getElementById("wishlistContainer");
-    const emptyMsg = document.getElementById("emptyWishlistMsg");
-
-    if (wishlist.length > 0) {
-      emptyMsg.style.display = "none";
-      wishlist.forEach((item) => {
-        const col = document.createElement("div");
-        col.className = "col-12 col-sm-6 col-md-4";
-        col.innerHTML = `
-        <div class="card border-0 shadow-sm h-100 position-relative wishlist-card fade-in">
-          <a href="collection.html" class="text-decoration-none text-dark">
-            <img src="${item.img}" class="card-img-top" alt="${item.name}">
-            <div class="card-body text-center">
-              <h5 class="fw-bold mb-3">${item.name}</h5>
-            </div>
-          </a>
-          <div class="d-flex justify-content-center gap-2 pb-4">
-            <button class="btn btn-outline-danger btn-sm remove-btn">
-              <i class="fas fa-trash-alt me-1"></i> Xoá 
-            </button>
-            <a href="tryon2d.html" class="btn btn-success btn-sm">
-              <i class="fas fa-shoe-prints me-1"></i> Thử
-            </a>
-          </div>
-        </div>
-      `;
-        wishlistContainer.appendChild(col);
-      });
-    }
     document.addEventListener("click", (e) => {
       const btn = e.target.closest(".remove-btn");
       if (btn) {
@@ -272,8 +285,10 @@
           card.classList.add("fade-out");
           setTimeout(() => {
             card.remove();
-            if (wishlistContainer.children.length === 0) {
-              emptyMsg.style.display = "block";
+            // Nếu xoá hết thì hiện thông báo
+            const container = document.getElementById("wishlistContainer");
+            if (container.children.length === 0) {
+                document.getElementById("emptyWishlistMsg").style.display = "block";
             }
           }, 500);
         }

@@ -1,372 +1,525 @@
 <!DOCTYPE html>
 <html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="images/Effects/favicon.png" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/tiny-slider.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>ShoeFit</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="icon" href="favicon.png" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="bootstrap, bootstrap4" />
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
-  <link href="css/tiny-slider.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <title>ShoeFit</title>
-</head>
-
-<body>
-  <!-- Start Header/Navigation -->
-  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3" aria-label="ShoeFit navigation bar">
-    <div class="container d-flex align-items-center justify-content-between">
-      <div class="collapse navbar-collapse" id="navbarsFurni">
-        <a class="navbar-brand fw-bold fs-3" href="index.html">
-          ShoeFit<span>.</span>
-        </a>
-        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 me-4">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Khám Phá</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tryonar.html">Thử Giày Ảo AR</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tryon2d.html">Thử Giày AI 2D</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="styleadvisor.html">Tư Vấn Phong Cách</a>
-          </li>
-        </ul>
-        <div class="d-flex align-items-center gap-3">
-          <a class="nav-link p-0" href="search.html">
-            <img src="images/Effects/search.svg" alt="Search" width="22" />
+  <body>
+    <!-- Start Header/Navigation -->
+    <nav
+      class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark py-3"
+      aria-label="ShoeFit navigation bar"
+    >
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="collapse navbar-collapse" id="navbarsFurni">
+          <a class="navbar-brand fw-bold fs-3" href="index.html">
+            ShoeFit<span>.</span>
           </a>
-          <a class="nav-link p-0" href="wishlist.html">
-            <img src="images/Effects/heart.svg" alt="Wishlist" width="22" />
-          </a>
-          <div class="dropdown custom-dropdown">
-            <button class="btn dropdown-toggle p-0 bg-transparent border-0" type="button" id="userDropdown"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="images/Effects/user.svg" alt="User" width="24" />
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="userDropdown">
-              <li>
-                <a class="dropdown-item" href="profile.html"><i class="fa-regular fa-user me-2"></i> Hồ Sơ</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="settings.html"><i class="fa-solid fa-gear me-2"></i> Cài Đặt</a>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <li>
-                <a class="dropdown-item text-danger" href="logout.html"><i
-                    class="fa-solid fa-right-from-bracket me-2"></i>
-                  Đăng Xuất</a>
-              </li>
-            </ul>
-          </div>
-          <div class="dropdown custom-dropdown">
-            <button class="btn dropdown-toggle p-0 bg-transparent border-0" type="button" id="userDropdown"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="images/Effects/globe.svg" alt="Globe" width="24" />
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0" aria-labelledby="userDropdown">
-              <li>
-                <a class="dropdown-item" href="#">Tiếng Việt</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">English</a>
-              </li>
-            </ul>
-          </div>
-          <a href="tryonAR.html" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm"
-            style="background: #30a5e3; border: none; transition: 0.3s" onmouseover="this.style.background='#0797e4'"
-            onmouseout="this.style.background='#0797e4'">
-            Tải Ngay
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- End Header/Navigation -->
-
-  <img src="images/Effects/des_hero.png" alt="Hero Image" />
-  <!-- Start New Product Section -->
-  <!-- <div class="hero"> </div> -->
-  <!-- End New Product Section -->
-
-  <!-- Services Section -->
-  <div class="product-section mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-
-          <div class="product-item product-item-full-image">
-            <img src="images/TryOnGrids/tryon2d.png" alt="Try-On AI 2D" class="img-fluid product-thumbnail mb-4" />
-            <a href="tryon2d.html" class="btn btn-blue">THỬ NGAY</a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-
-          <div class="product-item product-item-full-image">
-            <img src="images/TryOnGrids/tryonar.png" alt="AR Virtual Try-On" class="img-fluid product-thumbnail mb-4" />
-            <a href="tryonar.html" class="btn btn-blue">THỬ NGAY</a>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center">
-
-          <div class="product-item product-item-full-image">
-            <img src="images/TryOnGrids/styleadvisor.png" alt="Style Advisor"
-              class="img-fluid product-thumbnail mb-4" />
-            <a href="styleadvisor.html" class="btn btn-blue">THỬ NGAY</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Start Product Section -->
-  <div class="untree_co-section product-section before-footer-section">
-    <div class="container">
-      <div class="row mb-2 align-items-center">
-        <div class="col-md-6">
-          <h2 class="section-title">Thịnh Hành</h2>
-        </div>
-        <div class="col-md-6 text-start text-md-end">
-          <a href="collection.html" class="more">Xem Tất Cả Sản Phẩm</a>
-        </div>
-      </div>
-      <div class="row" id="product-list">
-        <!-- Products will be loaded here -->
-      </div>
-    </div>
-  </div>
-  <!-- End Product Section -->
-
-  <!-- Start Blog Section -->
-  <div class="blog-section">
-    <div class="container">
-      <div class="row mb-2 align-items-center">
-        <div class="col-md-6">
-          <h2 class="section-title">Từ Tạp Chí</h2>
-        </div>
-        <div class="col-md-6 text-start text-md-end">
-          <a href="blog.html" class="more">Xem Tất Cả Bài Viết</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-          <div class="post-entry">
-            <a href="blog.html" class="post-thumbnail">
-              <img src="images/Blogs/blog1.avif" alt="Hot Picks for Holiday: As Seen on The TODAY Show"
-                class="img-fluid" />
-            </a>
-            <div class="post-content-entry">
-              <h3>
-                <a href="blog.html">Hot Picks for Holiday: As Seen on The TODAY Show</a>
-              </h3>
-              <div class="meta">
-                <span>
-                  Viết bởi <a href="author/kristin-watson.html">Kristin Watson</a>
-                </span>
-                <span>
-                  - Ngày
-                  <a href="blog/date/october-9-2025.html">09 tháng 11 năm 2025</a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-          <div class="post-entry">
-            <a href="blog.html" class="post-thumbnail">
-              <img src="images/Blogs/blog2.avif" alt="Most Anticipated Sneaker Drops of 2025" class="img-fluid" />
-            </a>
-            <div class="post-content-entry">
-              <h3>
-                <a href="blog.html">Most Anticipated Sneaker Drops of 2025</a>
-              </h3>
-              <div class="meta">
-                <span>
-                  Viết bởi <a href="author/kyle-delaney.html">Kyle Delaney</a>
-                </span>
-                <span>
-                  - Ngày
-                  <a href="blog/date/february-12-2025.html">12 tháng 2 năm 2025</a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
-          <div class="post-entry">
-            <a href="blog.html" class="post-thumbnail">
-              <img src="images/Blogs/blog3.avif" alt="The Buyer's Guide: Jordan 1 Sneakers" class="img-fluid" />
-            </a>
-            <div class="post-content-entry">
-              <h3>
-                <a href="blog.html">The Buyer's Guide: Jordan 1 Sneakers</a>
-              </h3>
-              <div class="meta">
-                <span>
-                  Viết bởi <a href="author/thomas-banner.html">Thomas Banner</a>
-                </span>
-                <span>
-                  - Ngày <a href="blog/date/april-8-2024.html">08 tháng 04 năm 2024</a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Blog Section -->
-
-  <!-- Start Footer Section -->
-  <footer class="footer-section">
-    <div class="container relative">
-      <div class="sofa-img">
-        <img src="images/Effects/footer_img.png" alt="Footer image" class="img-fluid" />
-      </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="subscription-form">
-            <h3 class="d-flex align-items-center">
-              <span class="me-2">
-                <img src="images/Effects/envelope-outline.svg" alt="Envelope" class="img-fluid" width="24" />
-              </span>
-              <span>Đăng Ký Nhận Bản Tin</span>
-            </h3>
-            <form class="row g-3">
-              <div class="col-auto">
-                <input type="text" class="form-control" placeholder="Nhập tên của bạn" />
-              </div>
-              <div class="col-auto">
-                <input type="email" class="form-control" placeholder="Nhập email của bạn" />
-              </div>
-              <div class="col-auto">
-                <button class="btn btn-blue" type="submit">
-                  <span class="fa fa-paper-plane"></span> Gửi
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="row g-5 align-items-start justify-content-between">
-        <div class="col-lg-4">
-          <div class="mb-4 footer-logo-wrap">
-            <a href="/" class="footer-logo"> ShoeFit<span>.</span> </a>
-          </div>
-          <p class="mb-4">Try On. Fit Right. Shop Smart</p>
-          <ul class="list-unstyled custom-social d-flex gap-3 mb-4">
-            <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
+          <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 me-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Khám Phá</a>
             </li>
-            <li>
-              <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-x"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="tryonar.html">Thử Giày Ảo AR</a>
             </li>
-            <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-instagram"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="tryon2d.html">Thử Giày AI 2D</a>
             </li>
-            <li>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="styleadvisor.html">Tư Vấn Phong Cách</a>
             </li>
           </ul>
-          <div class="d-flex justify-content-start gap-3 mt-2">
-            <a href="tryonar.html" target="_self" rel="noopener noreferrer">
-              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                alt="Download on the App Store" height="45" />
+          <div class="d-flex align-items-center gap-3">
+            <a class="nav-link p-0" href="search.html">
+              <img src="images/Effects/search.svg" alt="Search" width="22" />
             </a>
-            <a href="tryonar.html" target="_self" rel="noopener noreferrer">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-                alt="Get it on Google Play" height="45" />
+            <a class="nav-link p-0" href="wishlist.html">
+              <img src="images/Effects/heart.svg" alt="Wishlist" width="22" />
             </a>
-          </div>
-        </div>
-        <div class="col-lg-7 ms-auto">
-          <div class="row links-wrap">
-            <div class="col-6 col-md-6">
-              <ul class="list-unstyled">
-                <li class="mb-2"><a href="about.html">Về Chúng Tôi</a></li>
-                <li class="mb-2"><a href="services.html">Dịch Vụ</a></li>
-                <li class="mb-2"><a href="blog.html">Blog</a></li>
-                <li class="mb-2"><a href="contact.html">Liên Hệ</a></li>
+            <div class="dropdown custom-dropdown">
+              <button
+                class="btn dropdown-toggle p-0 bg-transparent border-0"
+                type="button"
+                id="userDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="images/Effects/user.svg" alt="User" width="24" />
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                aria-labelledby="userDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="profile.html"
+                    ><i class="fa-regular fa-user me-2"></i> Hồ Sơ</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="settings.html"
+                    ><i class="fa-solid fa-gear me-2"></i> Cài Đặt</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item text-danger" href="logout.html"
+                    ><i class="fa-solid fa-right-from-bracket me-2"></i> Đăng
+                    Xuất</a
+                  >
+                </li>
               </ul>
             </div>
-            <div class="col-6 col-md-6">
-              <ul class="list-unstyled">
-                <li class="mb-2"><a href="#">Hỗ Trợ</a></li>
-                <li class="mb-2"><a href="#">Đội Ngũ</a></li>
-                <li class="mb-2"><a href="#">Lãnh Đạo</a></li>
-                <li class="mb-2"><a href="#">Chính Sách Bảo Mật</a></li>
+            <div class="dropdown custom-dropdown">
+              <button
+                class="btn dropdown-toggle p-0 bg-transparent border-0"
+                type="button"
+                id="userDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="images/Effects/globe.svg" alt="Globe" width="24" />
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                aria-labelledby="userDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Tiếng Việt</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">English</a>
+                </li>
               </ul>
             </div>
+            <a
+              href="tryonAR.html"
+              class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm"
+              style="background: #30a5e3; border: none; transition: 0.3s"
+              onmouseover="this.style.background='#0797e4'"
+              onmouseout="this.style.background='#0797e4'"
+            >
+              Tải Ngay
+            </a>
           </div>
         </div>
       </div>
-      <div class="copyright border-top pt-4 mt-4">
-        <div class="row align-items-center">
-          <div class="col-lg-6 text-center text-lg-start">
-            <p class="mb-0">&copy; 2025 ShoeFit. Đã đăng ký Bản quyền.</p>
+    </nav>
+    <!-- End Header/Navigation -->
+
+    <img src="images/Effects/des_hero.png" alt="Hero Image" />
+    <!-- Start New Product Section -->
+    <!-- <div class="hero"> </div> -->
+    <!-- End New Product Section -->
+
+    <!-- Services Section -->
+    <div class="product-section mt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center"
+          >
+            <div class="product-item product-item-full-image">
+              <img
+                src="images/TryOnGrids/tryon2d.png"
+                alt="Try-On AI 2D"
+                class="img-fluid product-thumbnail mb-4"
+              />
+              <a href="tryon2d.html" class="btn btn-blue">THỬ NGAY</a>
+            </div>
           </div>
-          <div class="col-lg-6 text-center text-lg-end">
-            <ul class="list-unstyled d-inline-flex mb-0 gap-4">
-              <li><a href="#">Điều khoản & Điều kiện</a></li>
-              <li><a href="#">Chính sách Bảo mật</a></li>
-            </ul>
+
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center"
+          >
+            <div class="product-item product-item-full-image">
+              <img
+                src="images/TryOnGrids/tryonar.png"
+                alt="AR Virtual Try-On"
+                class="img-fluid product-thumbnail mb-4"
+              />
+              <a href="tryonar.html" class="btn btn-blue">THỬ NGAY</a>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-5 text-center d-flex flex-column align-items-center"
+          >
+            <div class="product-item product-item-full-image">
+              <img
+                src="images/TryOnGrids/styleadvisor.png"
+                alt="Style Advisor"
+                class="img-fluid product-thumbnail mb-4"
+              />
+              <a href="styleadvisor.html" class="btn btn-blue">THỬ NGAY</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </footer>
-  <button id="scrollToTopBtn" title="Go to top">
-    <i class="fas fa-arrow-up"></i>
-  </button>
-  <!-- End Footer Section -->
 
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/tiny-slider.js"></script>
-  <script src="js/custom.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", async () => {
-      try {
-        const response = await fetch("data.json");
-        const data = await response.json();
-        const products = data.products;
-
-        const container = document.getElementById("product-list");
-
-        products.slice(0, 4).forEach((p) => {
-          const productHTML = `
-        <div class="col-12 col-md-4 col-lg-3 mb-5">
-          <a href="productdetail.html?id=${p.id}" class="product-item">
-            <img src="${p.image_url}" alt="${p.name}" class="img-fluid product-thumbnail" />
-            <h3 class="product-title">${p.name}</h3>
-          </a>
-          <span class="icon-cross">
-            <img src="images/Effects/cross.svg" alt="Add to cart" class="img-fluid" />
-          </span>
+    <!-- Start Product Section -->
+    <div class="untree_co-section product-section before-footer-section">
+      <div class="container">
+        <div class="row mb-2 align-items-center">
+          <div class="col-md-6">
+            <h2 class="section-title">Thịnh Hành</h2>
+          </div>
+          <div class="col-md-6 text-start text-md-end">
+            <a href="collection.html" class="more">Xem Tất Cả Sản Phẩm</a>
+          </div>
         </div>
-      `;
-          container.insertAdjacentHTML("beforeend", productHTML);
-        });
-      } catch (err) {
-        console.error("Error loading data.json:", err);
-      }
-    });
-  </script>
-</body>
 
+        <div class="row" id="product-list">
+          <div class="col-12 col-md-4 col-lg-3 mb-5">
+            <a href="productdetail.html?id=adidasgazelle" class="product-item">
+              <img
+                src="images/Shoes/adidasgazelle.png"
+                alt="Adidas Gazelle"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Adidas Gazelle</h3>
+            </a>
+            <span class="icon-cross">
+              <img
+                src="images/Effects/cross.svg"
+                alt="Add to cart"
+                class="img-fluid"
+              />
+            </span>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 mb-5">
+            <a href="productdetail.html?id=birkenstock" class="product-item">
+              <img
+                src="images/Shoes/birkenstock.png"
+                alt="Birkenstock Arizona"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Birkenstock Arizona</h3>
+            </a>
+            <span class="icon-cross">
+              <img
+                src="images/Effects/cross.svg"
+                alt="Add to cart"
+                class="img-fluid"
+              />
+            </span>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 mb-5">
+            <a
+              href="productdetail.html?id=nikeairjordan1lowog"
+              class="product-item"
+            >
+              <img
+                src="images/Shoes/nikeairjordan1lowog.png"
+                alt="Nike Air Jordan 1 Low OG"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Nike Air Jordan 1 Low OG</h3>
+            </a>
+            <span class="icon-cross">
+              <img
+                src="images/Effects/cross.svg"
+                alt="Add to cart"
+                class="img-fluid"
+              />
+            </span>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-3 mb-5">
+            <a href="productdetail.html?id=adizeroevosl" class="product-item">
+              <img
+                src="images/Shoes/adizeroevosl.png"
+                alt="Adidas Adizero Evo SL"
+                class="img-fluid product-thumbnail"
+              />
+              <h3 class="product-title">Adidas Adizero Evo SL</h3>
+            </a>
+            <span class="icon-cross">
+              <img
+                src="images/Effects/cross.svg"
+                alt="Add to cart"
+                class="img-fluid"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Product Section -->
+
+    <!-- Start Blog Section -->
+    <div class="blog-section">
+      <div class="container">
+        <div class="row mb-2 align-items-center">
+          <div class="col-md-6">
+            <h2 class="section-title">Từ Tạp Chí</h2>
+          </div>
+          <div class="col-md-6 text-start text-md-end">
+            <a href="blog.html" class="more">Xem Tất Cả Bài Viết</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+            <div class="post-entry">
+              <a href="blog.html" class="post-thumbnail">
+                <img
+                  src="images/Blogs/blog1.avif"
+                  alt="Hot Picks for Holiday: As Seen on The TODAY Show"
+                  class="img-fluid"
+                />
+              </a>
+              <div class="post-content-entry">
+                <h3>
+                  <a href="blog.html"
+                    >Hot Picks for Holiday: As Seen on The TODAY Show</a
+                  >
+                </h3>
+                <div class="meta">
+                  <span>
+                    Viết bởi
+                    <a href="author/kristin-watson.html">Kristin Watson</a>
+                  </span>
+                  <span>
+                    - Ngày
+                    <a href="blog/date/october-9-2025.html"
+                      >09 tháng 11 năm 2025</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+            <div class="post-entry">
+              <a href="blog.html" class="post-thumbnail">
+                <img
+                  src="images/Blogs/blog2.avif"
+                  alt="Most Anticipated Sneaker Drops of 2025"
+                  class="img-fluid"
+                />
+              </a>
+              <div class="post-content-entry">
+                <h3>
+                  <a href="blog.html">Most Anticipated Sneaker Drops of 2025</a>
+                </h3>
+                <div class="meta">
+                  <span>
+                    Viết bởi <a href="author/kyle-delaney.html">Kyle Delaney</a>
+                  </span>
+                  <span>
+                    - Ngày
+                    <a href="blog/date/february-12-2025.html"
+                      >12 tháng 2 năm 2025</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+            <div class="post-entry">
+              <a href="blog.html" class="post-thumbnail">
+                <img
+                  src="images/Blogs/blog3.avif"
+                  alt="The Buyer's Guide: Jordan 1 Sneakers"
+                  class="img-fluid"
+                />
+              </a>
+              <div class="post-content-entry">
+                <h3>
+                  <a href="blog.html">The Buyer's Guide: Jordan 1 Sneakers</a>
+                </h3>
+                <div class="meta">
+                  <span>
+                    Viết bởi
+                    <a href="author/thomas-banner.html">Thomas Banner</a>
+                  </span>
+                  <span>
+                    - Ngày
+                    <a href="blog/date/april-8-2024.html"
+                      >08 tháng 04 năm 2024</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Blog Section -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer-section">
+      <div class="container relative">
+        <div class="sofa-img">
+          <img
+            src="images/Effects/footer_img.png"
+            alt="Footer image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="subscription-form">
+              <h3 class="d-flex align-items-center">
+                <span class="me-2">
+                  <img
+                    src="images/Effects/envelope-outline.svg"
+                    alt="Envelope"
+                    class="img-fluid"
+                    width="24"
+                  />
+                </span>
+                <span>Đăng Ký Nhận Bản Tin</span>
+              </h3>
+              <form class="row g-3">
+                <div class="col-auto">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nhập tên của bạn"
+                  />
+                </div>
+                <div class="col-auto">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Nhập email của bạn"
+                  />
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-blue" type="submit">
+                    <span class="fa fa-paper-plane"></span> Gửi
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5 align-items-start justify-content-between">
+          <div class="col-lg-4">
+            <div class="mb-4 footer-logo-wrap">
+              <a href="/" class="footer-logo"> ShoeFit<span>.</span> </a>
+            </div>
+            <p class="mb-4">Try On. Fit Right. Shop Smart</p>
+            <ul class="list-unstyled custom-social d-flex gap-3 mb-4">
+              <li>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-x"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-start gap-3 mt-2">
+              <a href="tryonar.html" target="_self" rel="noopener noreferrer">
+                <img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  alt="Download on the App Store"
+                  height="45"
+                />
+              </a>
+              <a href="tryonar.html" target="_self" rel="noopener noreferrer">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+                  alt="Get it on Google Play"
+                  height="45"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-7 ms-auto">
+            <div class="row links-wrap">
+              <div class="col-6 col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="about.html">Về Chúng Tôi</a></li>
+                  <li class="mb-2"><a href="services.html">Dịch Vụ</a></li>
+                  <li class="mb-2"><a href="blog.html">Blog</a></li>
+                  <li class="mb-2"><a href="contact.html">Liên Hệ</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#">Hỗ Trợ</a></li>
+                  <li class="mb-2"><a href="#">Đội Ngũ</a></li>
+                  <li class="mb-2"><a href="#">Lãnh Đạo</a></li>
+                  <li class="mb-2"><a href="#">Chính Sách Bảo Mật</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright border-top pt-4 mt-4">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-start">
+              <p class="mb-0">&copy; 2025 ShoeFit. Đã đăng ký Bản quyền.</p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+              <ul class="list-unstyled d-inline-flex mb-0 gap-4">
+                <li><a href="#">Điều khoản & Điều kiện</a></li>
+                <li><a href="#">Chính sách Bảo mật</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- End Footer Section -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
